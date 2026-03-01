@@ -8,3 +8,4 @@ data/chunks.pkl
 data/embeddings.npz
 data/sample_key_sections.csv
 experiments/
+scripts/
