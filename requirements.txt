@@ -1,0 +1,8 @@
+gradio
+sentence-transformers
+chromadb
+rank-bm25
+requests
+numpy
+pandas
+datasets

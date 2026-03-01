@@ -1,0 +1,930 @@
+retriever,question_id,question,company,difficulty,section,ground_truth,answer,rouge_l,context_precision,answer_relevancy,faithfulness,retrieval_time,gen_time,total_time
+Dense,amd_001,What are AMD's main competitive risks in the processor market?,ADVANCED MICRO DEVICES INC,easy,section_1A,"AMD faces intense competition from Intel in microprocessors and faces risks including competitors introducing better products faster, aggressive pricing pressure, and competitors having greater access to complementary technologies.","Based on the provided SEC filings, AMD's main competitive risks in the processor market are:
+
+1. Intel's dominance and aggressive business practices:
+According to [3] and [4], Intel's dominant position in the microprocessor market and integrated graphics chipset market, its existing relationships with top-tier OEMs, and its aggressive marketing and pricing strategies could result in lower unit sales and average selling prices for AMD's products, which could have a material adverse effect on us. Additionally, Intel's ability to drive de facto standards for x86 microprocessors may cause AMD and other companies to have delayed access to such standards.
+
+2. Intel's significant financial resources:
+As stated in [3] and [4], Intel has substantially greater financial resources than AMD, which enables it to market its products aggressively, target customers and channel partners with special incentives, and discipline customers who do business with Intel. These aggressive activities may result in lower unit sales and average selling prices for AMD's products.
+
+3. Market acceptance for new",0.0737,1.0,0.8333,1.0,0.112,10.882,10.994
+Dense,amd_002,What was AMD's strategy for the enterprise processor market?,ADVANCED MICRO DEVICES INC,medium,section_7,AMD aimed to increase its share of the enterprise market with tier-one OEM customers to utilize capacity of their planned 300-millimeter wafer fabrication facility and marketed the AMD Opteron processor for enterprise customers.,The provided filings do not contain enough information to answer this question.,0.0889,1.0,0.0,0.0,0.048,4.191,4.24
+Dense,amd_003,How did AMD describe its manufacturing strategy?,ADVANCED MICRO DEVICES INC,medium,section_1,AMD planned to transition to new process technologies at a fast pace including 90-nanometer process technology and build a 300-millimeter wafer fabrication facility to offer higher-performance microprocessors in greater volumes.,"The provided filings do not contain enough information to answer this question. 
+
+However, based on Section 4 of Advanced Micro Devices Inc | Date: 2013-02-21, it can be stated that AMD is a global semiconductor company with facilities around the world and offers primarily x86 microprocessors, embedded processors, chipsets for desktop and mobile devices, professional workstations and servers; and graphics, video and multimedia products.",0.0638,1.0,0.25,0.5,0.041,6.35,6.391
+Dense,amd_004,What markets does AMD sell its products in?,ADVANCED MICRO DEVICES INC,easy,section_1,"AMD sells microprocessors and related products in consumer and commercial markets including the PC market, mobile computing market, and enterprise market through tier-one OEM customers.","According to the provided SEC filings, AMD sells its products in the following markets:
+
+* Computation and communication equipment (Section 1 of [1] and [3])
+* Embedded processor solutions (Section 4 of [4])
+* Consumer electronics devices (Section 4 of [4])
+
+Additionally, AMD markets and sells its products through third-party distributors and independent representatives in both domestic and international markets pursuant to non-exclusive agreements. The specific countries mentioned include:
+
+* Europe (Section 1 of [3] and [2])
+* Asia-Pacific Basin (Section 1 of [3] and [2])
+* United States (Section 1 of [3] and [2])
+
+Note that the provided filings do not provide an exhaustive list of all markets where AMD sells its products, but rather highlight specific areas of focus and geographic regions mentioned in the filings.",0.1176,1.0,0.8,1.0,0.052,6.641,6.692
+Dense,amd_005,What financial risks does AMD disclose related to manufacturing?,ADVANCED MICRO DEVICES INC,hard,section_1A,"AMD discloses risks including failure to achieve yield and volume goals, inability to offer higher-performance microprocessors in significant volume on a timely basis, and risks related to transitioning to new process technologies.","According to the 2008 SEC filing, Advanced Micro Devices Inc. discloses several financial risks related to manufacturing:
+
+One of the risks mentioned is the interruption of supply for certain raw materials used in the manufacture of its products, which could result in shortages and force AMD to reduce its manufacturing operations (Section: Business, [4]).
+
+Additionally, the company mentions that the failure to comply with present or future governmental regulations related to the use, storage, handling, discharge, or disposal of toxic, volatile, or otherwise hazardous chemicals used in the manufacturing process could result in fines being imposed on the Company, suspension of production, alteration of the Company's manufacturing processes, or cessation of operations (Section: Business, [4]).
+
+Finally, AMD notes that while it has budgeted for foreseeable associated expenditures, future environmental legal requirements may become more stringent or costly in the future, which could have a material adverse effect on the Company (Section: Risk Factors, [5]).",0.086,1.0,0.8333,1.0,0.071,8.875,8.946
+Dense,abt_001,What are Abbott Laboratories' main business segments?,ABBOTT LABORATORIES,easy,section_1,"Abbott Laboratories has four reportable revenue segments: Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Vascular Products.","According to Abbott Laboratories' 2015 SEC 10-K filing ([1]), the company has four reportable segments:
+
+1. Established Pharmaceutical Products
+2. Diagnostic Products
+3. Nutritional Products
+4. Vascular Products
+
+This information is also consistent with their 2016 and 2005 filings, which list the same four segments (see [2] and [3]). Additionally, their 2018 filing ([5]) lists the same four segments, with a slight change in segment name:
+
+1. Established Pharmaceutical Products
+2. Diagnostic Products
+3. Nutritional Products
+4. Cardiovascular and Neuromodulation Products",0.1856,1.0,0.4,0.9,0.027,6.312,6.339
+Dense,abt_002,How does Abbott Laboratories sell its pharmaceutical products?,ABBOTT LABORATORIES,easy,section_1,Abbott's pharmaceutical products are sold primarily on the prescription or recommendation of physicians or other health care professionals.,"According to the provided context, Abbott Laboratories sells its pharmaceutical products primarily on the prescription or recommendation of physicians or other healthcare professionals (as stated in [1] and [5]).
+
+Additionally, the 2008 filing ([3]) mentions that Abbott's principal products are available ""primarily on the prescription, or recommendation, of physicians.""",0.3582,1.0,0.8,1.0,0.027,7.944,7.971
+Dense,abt_003,What is Humira and what conditions does it treat?,ABBOTT LABORATORIES,medium,section_1,"Humira is a pharmaceutical product sold by Abbott Laboratories used to treat various conditions including rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, psoriasis and Crohn's disease.",The provided filings do not contain enough information to answer this question.,0.0541,0.0,0.0,1.0,0.025,4.395,4.42
+Dense,abt_004,How does Abbott recognize revenue?,ABBOTT LABORATORIES,hard,section_8,"Abbott records revenue when certain conditions are met such as when a product is delivered or a service is performed, and allocates revenue based on the relative selling price of each deliverable.","According to Abbott Laboratories' SEC filings, revenue is recognized under the following conditions:
+
+* Revenue from the launch of a new product, from an improved version of an existing product, or for shipments in excess of a customer's normal requirements are recorded when the conditions noted above are met.
+* In those situations, management records a returns reserve for such revenue, if necessary.
+
+Additionally, Abbott recognizes revenue under selling arrangements that include multiple deliverables (e.g., instruments, reagents, procedures, and service agreements) as follows:
+
+* Under these arrangements, Abbott recognizes revenue upon delivery of the product or performance of the service.
+* The revenue is allocated to each deliverable based on the relative selling price of each deliverable, which is based primarily on vendor-specific objective evidence.
+
+Sales of product rights for marketable products are recorded as revenue upon disposition of the rights. Revenue from license of product rights, or for performance of research or selling activities, is recorded over the periods earned.
+
+[1] Abbott Laboratories |",0.1827,1.0,0.6667,1.0,0.041,7.217,7.258
+Dense,abt_005,What types of products does Abbott's nutritional segment include?,ABBOTT LABORATORIES,medium,section_1,Abbott's nutritional segment includes a broad line of adult and pediatric nutritionals including prepared infant formula sold primarily on the recommendation of physicians and health care professionals.,"Abbott's Nutritional Products segment includes a broad line of pediatric and adult nutritionals manufactured, marketed, and sold worldwide. This includes:
+
+* Various forms of prepared infant formula and follow-on formula, such as Similac Advance, Similac, Similac With Iron, Similac Sensitive, Isomil Advance, Alimentum, Gain, and Grow (as stated in [1] and [2]).
+* Adult and other pediatric nutritional products, including Ensure, Ensure Plus, Ensure High Protein, Glucerna, ProSure, PediaSure, Pedialyte, Juven, and EleCare (as stated in [2]).
+* Nutritional products used in enteral feeding in health care institutions, such as Jevity, Osmolite, Oxepa, and Nepro (as stated in [2]).
+* Zone Perfect bars and the EAS family of nutritional brands, including AdvantEdge and Myoplex (as stated in [2]).
+
+",0.2207,1.0,0.6667,1.0,0.052,8.626,8.677
+Dense,adr_001,What cybersecurity risks does Adams Resources & Energy disclose?,"ADAMS RESOURCES & ENERGY, INC.",easy,section_1A,"Adams Resources discloses that it is subject to cybersecurity risks and may incur increasing costs to enhance security. Security breaches could expose the company to loss, misuse or interruption of sensitive information and result in operational impacts, reputational harm, and liability.","Adams Resources & Energy discloses the following cybersecurity risks:
+
+* The potential for cyber-attacks or other disruptions to their information technology systems, which could lead to reduced revenue, increased costs, liability claims, fines, or harm to their competitive position ([1], 2018).
+* The risk of security breaches that could expose them to a risk of loss, misuse, or interruption of sensitive and critical information and functions, including their own proprietary information and that of their customers, suppliers, and employees ([1], 2018).
+* The risk of operational impacts, reputational harm, competitive disadvantage, litigation, regulatory enforcement actions, and liability due to security breaches or cyber-attacks ([1], 2018).
+* The potential for rapidly evolving types of cyber-attacks that may cause them to incur increasing costs for technology, personnel, and services to enhance security or respond to occurrences ([1], 2018).
+
+Note: These risks are similar to those disclosed by AAR Corp in their 201",0.2304,0.4,0.8571,0.8,0.104,8.651,8.756
+Dense,adr_002,What climate-related risks does Adams Resources disclose?,"ADAMS RESOURCES & ENERGY, INC.",medium,section_1A,"Adams Resources discloses that it may not be able to recover through insurance damages, losses or costs that may result from potential physical effects of climate change.","According to ADAMS RESOURCES & ENERGY, INC.'s 2019-03-11 Risk Factors filing, the company discloses the following climate-related risks:
+
+1. Disruption of marketing and transportation activities due to severe weather events, such as hurricanes and floods.
+2. Damages to facilities from powerful winds or floods.
+3. Increases in costs of operation or reductions in the efficiency of operations.
+4. Increased costs for insurance coverages in the aftermath of adverse effects.
+5. Potential indirect effects on financing and operations by disrupting transportation or process-related services provided by companies or suppliers with whom they have a business relationship.
+6. Changes in demand for and consumption of their products and services due to changes in both costs and weather patterns, which could have a material adverse effect on their business, financial condition, results of operations, and cash flows.
+7. Potential inability to recover through insurance some or any of the damages, losses, or costs that may result from potential physical effects of climate change.
+
+",0.2139,1.0,0.8,1.0,0.101,8.516,8.616
+Dense,adr_003,What accounting standards changes affected Adams Resources financial statements?,"ADAMS RESOURCES & ENERGY, INC.",hard,section_8,Adams Resources was affected by SFAS No. 145 which amended SFAS No. 13 on Accounting for Leases to eliminate an inconsistency between required accounting for sale-leaseback transactions.,"According to the SEC filings, two accounting standards changes affected Adams Resources' financial statements:
+
+1. In 2006, the Company changed its method of accounting for buy/sell arrangements (as discussed in Note 4 of the consolidated financial statements for the year ended December 31, 2006).
+2. In 2015, the Company changed its method of accounting for deferred income taxes effective January 1, 2015 due to the adoption of FASB ASU 2015-17, Balance Sheet Classification of Deferred Taxes (as discussed in Note 1 to the financial statements for the year ended December 31, 2015).
+
+These changes were adopted as a result of adopting FASB Interpretation No. 48, “Accounting for Uncertainty in Income Taxes - an Interpretation of FASB Statement No. 109” on January 1, 2007 (as discussed in Note 4 of the consolidated financial statements for the year ended December 31",0.0723,1.0,0.875,1.0,0.03,9.251,9.281
+Dense,aar_001,What services does AAR Corp provide to government customers?,AAR CORP,medium,section_1,"AAR Corp provides fleet management and operations of customer-owned aircraft for the U.S. Department of State under the INL/A WASS contract, and customized performance-based supply chain logistics programs for the U.S. Department of Defense and foreign governments.","According to source [4] (2010-07-16) and [5] (2018-07-11), AAR Corp provides services to government customers through its Government and Defense Services reportable business segment.
+
+In the context of Government and Defense Services, it is mentioned that:
+
+* Aviation Worldwide Services (""AWS""), a leading provider of expeditionary airlift services and aircraft modifications to the United States and other government customers, was acquired by AAR in 2010.
+* AWS operates a fleet of customized fixed-wing and rotary-wing aircraft, principally in Afghanistan, Northern Africa, and the Western Pacific, transporting personnel and cargo in support of worldwide U.S. Department of Defense and Department of State deployments.
+* The company also performs engineering and design modifications on rotary-wing aircraft for government customers.
+
+No specific details on other services provided to government customers are mentioned in sources [4] and [5].
+
+However, it is mentioned in source [2] (2017-07-12) that",0.1667,1.0,0.8333,0.8571,0.045,8.709,8.754
+Dense,aar_002,What are AAR Corp's main business segments?,AAR CORP,easy,section_1,"AAR Corp has two main segments: Aviation Services which provides aftermarket support for commercial aviation and government/defense markets accounting for approximately 95% of sales, and Expeditionary Services which provides products supporting movement of equipment and personnel.","According to the provided SEC filings, AAR Corp's main business segments are:
+
+Aviation Services and Technology Products.
+
+This answer comes from [3] Company: AAR CORP | Section: Business | Date: 2014-07-17 (item 1. BUSINESS).
+
+Note that prior to this change, AAR Corp reported its activities in four business segments: Inventory and Logistic Services, Maintenance, Repair and Overhaul, Manufacturing, and Aircraft and Engine Sales and Leasing, which were later reorganized into Aviation Services and Technology Products.
+
+Also, note that the company's reportable segments changed over time. For example, in 2005, they reported activities in four business segments (see [2]), and in 2002, they reported activities in four business segments as well (see [4]).",0.1216,1.0,0.8,0.8,0.038,7.512,7.549
+Dense,aar_003,How did COVID-19 impact AAR Corp's business in fiscal 2020?,AAR CORP,medium,section_1,"COVID-19 significantly impacted AAR Corp in Q4 fiscal 2020 by decreasing commercial aircraft flying and flight hours. The company implemented cost reduction actions including hiring freeze, reducing non-essential spend, furloughs, reduction in force, and closure of an airframe maintenance facility in Duluth Minnesota.","The provided filings do not contain enough information to answer this question about how COVID-19 impacted AAR Corp's business in fiscal 2020.
+
+However, I can provide some context from the provided filings. According to AAR Corp's filing on 2016-07-13 (ITEM 1. BUSINESS), the company executed a comprehensive strategic plan in fiscal 2015 and had a strong financial position as they entered fiscal 2017. There is no specific information about how COVID-19 impacted their business in fiscal 2020.
+
+The provided filings from AAR Corp do not mention the impact of COVID-19 on their business in fiscal 2020.",0.1583,0.2,0.8571,1.0,0.042,7.296,7.338
+Dense,aar_004,What cybersecurity risks does AAR Corp disclose?,AAR CORP,medium,section_1A,"AAR Corp discloses that its systems and technologies or those of third parties could fail or become unreliable due to equipment failures, software errors, or cybersecurity attacks, which could disrupt operations.","The provided filings do not contain enough information to answer this question. The risk factors section of the 2012-07-19 filing mentions government funding and spending, but does not specifically mention cybersecurity risks.
+
+However, I can suggest that you review AAR Corp's current Risk Factors section in their most recent annual report to see if they have disclosed any specific cybersecurity risks.",0.0652,1.0,0.8,1.0,0.023,5.085,5.108
+Dense,aar_005,How many FAA certificated repair stations does AAR Corp operate?,AAR CORP,easy,section_1,"AAR Corp has 12 FAA certificated repair stations in the United States, Canada, and Europe. Of these, seven are also EASA certificated and three are also Transport Canada Civil Aviation certificated.","According to the provided SEC filings, AAR Corp operates 13 FAA certificated repair stations in the United States and Europe. 
+
+This information can be found in sections [1] (2015-07-15), [2] (2017-07-12) and [3] (2019-07-18).",0.3692,1.0,0.75,0.5,0.023,4.877,4.9
+Dense,ceco_001,How does economic conditions affect CECO Environmental's business?,CECO ENVIRONMENTAL CORP,medium,section_1,"Favorable economic conditions generally lead to plant expansions and construction of new industrial sites benefiting CECO, while weak economic conditions negatively impact demand for their environmental products and services.","According to the SEC filings, economic conditions significantly affect CECO Environmental's business. The company states that its financial performance depends largely on varying conditions in the markets it serves, particularly the general industrial markets (Source: [5] 2010-03-29).
+
+The weakened economy has resulted in decreased demand for CECO Environmental's services, and current economic uncertainties may cause customers or prospective customers to defer or reduce spending on air pollution control products and services, which could reduce future earnings and cash flow (Source: [5] 2010-03-29).
+
+Additionally, the company notes that if economic conditions persist or deteriorate, they could have a significant adverse impact on its operations by decreasing customers' demand for or ability to pay for capital improvements, affecting their ability to make payments on contracts, increasing interest expense, and limiting its ability to expand through acquisitions (Source: [5] 2010-03-29).
+
+Therefore, economic conditions play a crucial role in shaping CEC",0.125,1.0,0.8333,0.8,0.025,8.556,8.581
+Dense,ceco_002,What operational model does CECO Environmental use?,CECO ENVIRONMENTAL CORP,hard,section_7,CECO Environmental uses a centralized operational model throughout its operations which has provided certain efficiencies over a more decentralized model.,"CECO Environmental Corp uses an asset-light business model (see sections 1. Business General from filings [1], [2], and [3]). This means that they focus on providing services and solutions to their customers without owning a significant amount of physical assets.
+
+Additionally, as stated in section 1. Business General from filing [2], CECO provides systems that capture, clean and destroy airborne contaminants from industrial facilities, as well as equipment that controls emissions from such facilities, as well as fluid handling and filtration systems. This suggests that their operational model is centered around designing, building, installing, and maintaining these systems.
+
+There is no explicit mention of the specific operational models used by CECO Environmental in terms of manufacturing, production, or supply chain management, but based on the information provided in sections 1. Business General from filings [2] and [5], it can be inferred that they focus on providing engineered solutions and services to their customers.
+
+It is worth noting that CECO",0.0782,1.0,0.8,0.8889,0.024,8.628,8.652
+Dense,cross_001,Which companies disclose cybersecurity as a risk factor?,MULTIPLE,hard,section_1A,"Adams Resources & Energy, AAR Corp, and Matson Inc all disclose cybersecurity risks in their Risk Factors sections, noting that security breaches could expose them to loss of sensitive information and operational disruption.","The following companies disclose cybersecurity as a risk factor:
+
+* Matson, Inc. (Section: Risk Factors, Date: 2021-02-26)
+[1]
+
+* AAR CORP (Section: Risk Factors, Dates: 2016-07-13 and 2015-07-15)
+[2], [5]
+
+* BK Technologies Corp (Section: Risk Factors, Date: 2020-03-04)
+
+These companies acknowledge that they are vulnerable to various cybersecurity threats, including cyber attacks, software viruses, hacking, malware, denial of service attacks, cyber terrorism, and other catastrophic events.",0.14,1.0,0.8333,0.5,0.025,6.523,6.548
+Dense,cross_002,What government agencies are mentioned as customers across the filings?,MULTIPLE,medium,section_1,The U.S. Department of Defense and U.S. Department of State are mentioned as government customers by AAR Corp. Adams Resources also mentions government contracts.,"The government agencies mentioned as customers across the filings are:
+
+* U.S. Department of Defense (DoD) ([1], [3], [4], [5])
+* U.S. Department of State (DoS) ([2], [4])
+
+These agencies are mentioned as principal customers for AAR CORP's products and services in various business segments, including Aviation Services, Expeditionary Services, Government and Defense Services, and Structures and Systems.
+
+ Source: AAR CORP filings from 2011-07-13, 2014-07-17, 2017-07-12, 2018-11-20, 2020-07-21",0.3261,1.0,0.8571,0.5,0.025,6.945,6.97
+Dense,cross_003,What environmental regulations affect these companies?,MULTIPLE,hard,section_1A,AAR Corp mentions environmental legal requirements and associated expenditures. Adams Resources discloses climate-related physical risks and potential inability to recover damages through insurance.,"According to the provided SEC filings, the following environmental regulations affect Air Products & Chemicals, Inc.:
+
+* Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), also known as the Superfund law ([4], [5])
+* Resource Conservation and Recovery Act (RCRA) ([4], [5])
+* State laws similar to CERCLA ([4], [5])
+* Federal environmental and safety laws and regulations concerning emissions in the air, discharges to land and water, and the generation, handling, treatment, and disposal of hazardous waste and other materials ([2], [3])
+* International tax treaties ([1])
+
+These regulations can result in additional capital expenditures and costs for compliance, as well as increase operating costs. The company also estimates expenses for these matters, which are charged to income from continuing operations.
+
+Sources:
+[4] Air Products & Chemicals, Inc. | Section: Business | Date: 2011-11-22
+[5] Air Products",0.0497,1.0,0.8,0.8,0.038,7.44,7.477
+Dense,bkt_001,What sector does BK Technologies operate in?,BK Technologies Corp,easy,section_1,BK Technologies Corp operates in the communications technology sector providing mission-critical communications equipment.,"BK Technologies Corp operates in the wireless communications equipment industry, specifically in the two-way land mobile radios and related products sector ([1], [3], [4]). 
+
+[1] BK TECHNOLOGIES CORPORATIONYEARS ENDED DECEMBER 31, 2020 AND NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (in thousands, except share data and percentages) 
+The primary business of its wholly-owned operating subsidiary, BK Technologies, Inc., is the designing, manufacturing and marketing of wireless communications equipment primarily consisting of two-way land mobile radios and related products...
+
+[3] Management’s Discussion and Analysis of Financial Condition and Results of Operations Executive Summary (2021-03-03)
+We design, manufacture and market American made two-way land mobile radios, repeaters, base stations and related components and subsystems.
+
+[4] BK TECHNOLOGIES CORPORATION CONSOLIDATED BALANCE SHEETS (in thousands, except share data) 
+The primary business of its wholly-owned operating subsidiary, BK",0.125,1.0,0.8,1.0,0.045,8.181,8.226
+Dense,apd_001,What business does Air Products and Chemicals operate in?,"Air Products & Chemicals, Inc.",easy,section_1,"Air Products and Chemicals operates in the industrial gases and chemicals business, providing atmospheric and process gases and related equipment to various industries.","Air Products & Chemicals operates in several businesses, including:
+
+* Industrial Gases
+	+ Atmospheric and process gases
+	+ Liquefied natural gas process technology and equipment
+* Materials Technologies
+	+ Serving the semiconductor industry
+	+ Polyurethanes
+	+ Cleaning and coatings
+	+ Adhesives industries
+
+This information is found in the 2008-11-26 General Description of Business and Fiscal Year 2008 Developments ([1]) and the 2015-11-24 BUSINESS OVERVIEW section ([5]). 
+
+Additionally, Air Products & Chemicals also serves customers globally in growth markets such as:
+
+* Semiconductor materials
+* Refinery hydrogen
+* Natural gas liquefaction
+* Home healthcare
+* Advanced coatings and adhesives
+
+This information is found in the 2006-12-13 GENERAL DESCRIPTION OF BUSINESS section ([2]).
+
+It's worth noting that Air Products & Chemicals has also exited certain businesses, such as the Energy-from",0.1722,1.0,0.8333,1.0,0.025,8.412,8.437
+Dense,acu_001,What risks does ACME United disclose to investors?,ACME UNITED CORP,easy,section_1A,ACME United discloses that ownership of the company's securities involves a number of risks and uncertainties that potential investors should carefully consider.,"ACME United Corp discloses several risks to investors, including:
+
+1. Cybersecurity risks: The company may be subject to liability for failure to comply with privacy and information security laws, for failing to protect personal information, or for misusing personal information (as disclosed in [1], [2], and [3]).
+2. Loss of business due to competition: Future market and competitive pressures may prohibit the Company from raising prices to offset increased product costs, freight costs, and other inflationary items, which could have a negative effect on its results of operations (as disclosed in [1] and [2]).
+3. Inability to raise prices: The inability to pass these costs through to the Company’s customers could have a negative effect on its results of operations (as disclosed in [1] and [2]).
+4. Need for additional capital: The Company may need to raise additional capital to fund its operations (as disclosed in [1] and [2]).
+5. Uncertainty in new product",0.0909,1.0,0.8,1.0,0.026,7.811,7.837
+Dense,mat_001,What cybersecurity risks does Matson disclose?,"Matson, Inc.",easy,section_1A,Matson discloses that its information technology systems have in the past and may in the future be exposed to cybersecurity risks and other disruptions that could adversely impact the company.,"According to Matson's 2021 SEC filing, specifically Section: Risk Factors dated February 26, 2021 ([1]), the Company discloses the following cybersecurity risks:
+
+1. Cybersecurity risks and disruptions that could impair the Company's ability to operate and adversely affect its business.
+2. Exposed systems and third-party service providers in many aspects of its business, including cloud services for accounting, billing, disbursement, cargo booking and tracking, vessel scheduling and stowage, equipment tracking, customer service, banking, payroll, and employee communication systems.
+3. Collection, storage, and transmission of sensitive data, including proprietary business information and that of customers and employees.
+4. Cyber threats such as:
+   - Computer viruses
+   - Hacking
+   - Malware
+   - Denial of service attacks
+   - Cyber terrorism
+   - Circumvention of security systems
+   - Malfeasance
+   - Breaches due to employee error
+   - Natural disasters
+",0.1111,0.2,0.75,0.8,0.024,8.358,8.381
+Dense,temp_001,How did AMD's competitive position change between 2007 and 2021?,ADVANCED MICRO DEVICES INC,hard,section_1A,In 2007 AMD faced competition primarily from Intel in microprocessors. By 2021 AMD's competitive concerns expanded to include GPU competitors and the expansion of Intel into integrated graphics. AMD's risk disclosures became more detailed over time.,"The provided filings do not contain enough information to answer this question.
+
+The filings only provide specific financial data and market trends for certain periods, but they do not offer a comprehensive analysis of AMD's competitive position over the entire period from 2007 to 2021.",0.1235,1.0,0.5714,0.5,0.025,5.688,5.714
+Dense,temp_002,When did Abbott Laboratories first disclose its four reportable segments?,ABBOTT LABORATORIES,hard,section_1,"Abbott Laboratories disclosed four reportable revenue segments including Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Vascular Products in filings from at least 2008 through 2011.","The answer is not found in any of the provided SEC filings, as the information about the number and names of the reportable segments changes over time. However, it can be inferred that Abbott Laboratories first disclosed its four reportable segments on or after January 1, 2004, when the company reorganized its segments, but the exact date is not specified in the provided context.
+
+The earliest mentioned change to the segment structure is on January 1, 2004, when certain hospital pharmaceutical products were shifted from the Hospital Products segment to the Pharmaceutical Products segment, and the vascular and spinal products businesses were separated into non-reportable segments. However, this does not explicitly state that Abbott had four reportable segments at this time.
+
+The first mention of Abbott having four reportable segments is in [2], which states: ""Abbott has four reportable revenue segments: Pharmaceutical Products, Diagnostic Products, Ross Products, and International."" This filing date is February 22, 2006.",0.1326,1.0,0.8571,1.0,0.024,8.24,8.265
+BM25,amd_001,What are AMD's main competitive risks in the processor market?,ADVANCED MICRO DEVICES INC,easy,section_1A,"AMD faces intense competition from Intel in microprocessors and faces risks including competitors introducing better products faster, aggressive pricing pressure, and competitors having greater access to complementary technologies.","According to Advanced Micro Devices Inc.'s SEC filings, AMD's main competitive risks in the processor market include:
+
+* Failing to achieve yield and volume goals or to offer higher-performance processors in significant volume on a timely basis and at competitive prices (Source: [1], [2], [4], [5])
+* Market acceptance for new products, particularly 64-bit microprocessors based on x86 technology (Source: [2], [5])
+* Maintaining adequate selling prices of microprocessors despite increasingly aggressive Intel pricing strategies, marketing programs, and product introductions (Source: [2], [5])
+* Maintaining a competitive position in the server market and regaining momentum with new multi-core processors (Source: [1])
+* The pace at which AMD can convert production to newer process technologies, such as 90-nanometer copper interconnect process (Source: [2], [5])
+* Losing Microsoft Corporation's support for their products, which would materially adversely affect the company's ability",0.0719,1.0,0.8333,0.5,0.082,9.304,9.387
+BM25,amd_002,What was AMD's strategy for the enterprise processor market?,ADVANCED MICRO DEVICES INC,medium,section_7,AMD aimed to increase its share of the enterprise market with tier-one OEM customers to utilize capacity of their planned 300-millimeter wafer fabrication facility and marketed the AMD Opteron processor for enterprise customers.,"The provided filings do not contain enough information to answer this question accurately. However, based on the context from the 2005 filing [3] and the 2019 filing [1], it can be inferred that AMD has historically developed dual-core processor technology for increasing processor performance with minimal increase in power consumption.
+
+Regarding the enterprise processor market, the 2005 filing [3] mentions that AMD Opteron processors are used in a variety of server applications, including business processing and business intelligence. However, there is no specific information on AMD's strategy for the enterprise processor market.
+
+The 2019 filing [1] does not provide any detailed information on AMD's strategy for the enterprise processor market, but it mentions that they introduced new processors such as Ryzen PRO APUs for commercial notebooks built with enterprise-grade features.
+
+Further clarification or more recent filings would be necessary to determine a specific strategy for the enterprise processor market.",0.1099,1.0,0.8,1.0,0.034,7.349,7.384
+BM25,amd_003,How did AMD describe its manufacturing strategy?,ADVANCED MICRO DEVICES INC,medium,section_1,AMD planned to transition to new process technologies at a fast pace including 90-nanometer process technology and build a 300-millimeter wafer fabrication facility to offer higher-performance microprocessors in greater volumes.,"The provided filings do not contain enough information to answer this question about ADAMS RESOURCES & ENERGY, INC.'s manufacturing strategy.",0.04,0.0,0.25,0.0,0.025,2.961,2.986
+BM25,amd_004,What markets does AMD sell its products in?,ADVANCED MICRO DEVICES INC,easy,section_1,"AMD sells microprocessors and related products in consumer and commercial markets including the PC market, mobile computing market, and enterprise market through tier-one OEM customers.","According to the provided context from SEC filings, AMD sells its products in the following markets:
+
+* Computation equipment market
+* Communication equipment market
+
+Additionally, the company also sells its Flash memory products under the Spansion trademark, and distributes these products in various markets, including:
+
+* Domestic markets
+* International markets (primarily Europe and Asia-Pacific Basin)
+
+It is worth noting that the company's distribution channels include direct sales force, third-party distributors, and independent representatives, with non-exclusive agreements in place.
+
+Source: [1], [2], [4]",0.1481,1.0,0.8,0.5,0.032,5.422,5.454
+BM25,amd_005,What financial risks does AMD disclose related to manufacturing?,ADVANCED MICRO DEVICES INC,hard,section_1A,"AMD discloses risks including failure to achieve yield and volume goals, inability to offer higher-performance microprocessors in significant volume on a timely basis, and risks related to transitioning to new process technologies.","According to AMD's disclosures, one of the financial risks related to manufacturing is:
+
+* Failure to achieve expected manufacturing yields for AMD's products could negatively impact its financial results.
+
+(This risk is mentioned in AMD's 2021 Annual Report, Item 1.01: Business Outlook and Guidance, under ""Risks and Uncertainties"" section.)
+
+Additionally, another related risk is:
+
+* If essential equipment, materials or manufacturing processes are not available to manufacture AMD's products, AMD could be materially adversely affected.
+
+(This risk is also mentioned in AMD's 2021 Annual Report, Item 1.01: Business Outlook and Guidance, under ""Risks and Uncertainties"" section.)
+
+These risks highlight the potential consequences of disruptions in AMD's manufacturing operations, which can impact its financial performance.",0.1233,1.0,0.6667,0.7143,0.035,12.778,12.813
+BM25,abt_001,What are Abbott Laboratories' main business segments?,ABBOTT LABORATORIES,easy,section_1,"Abbott Laboratories has four reportable revenue segments: Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Vascular Products.","According to the provided SEC filings:
+
+Abbott Laboratories' main business segments are as follows:
+
+* Pharmaceutical Products: This segment includes U.S. sales of a broad line of pharmaceuticals, and internationally, it is referred to as Established Pharmaceutical Products (as of 2011) or International sales of a broad line of branded generic pharmaceutical products (as of 2014).
+* Diagnostic Products: This segment includes worldwide sales of diagnostic systems and tests for blood banks, hospitals, commercial laboratories, and alternate-care testing sites.
+* Nutritional Products: This segment includes worldwide sales of a broad line of adult and pediatric nutritional products.
+
+Note that Abbott Laboratories' reportable segments have undergone reorganizations over the years, as described in the filings. However, these three segments have been consistently reported throughout the provided SEC filings:
+
+[1] 2006-02-22 (pre-2011)
+[2] 2004-02-25 (pre-2011)
+[3] 2014-",0.0795,1.0,0.8,0.8333,0.025,7.856,7.88
+BM25,abt_002,How does Abbott Laboratories sell its pharmaceutical products?,ABBOTT LABORATORIES,easy,section_1,Abbott's pharmaceutical products are sold primarily on the prescription or recommendation of physicians or other health care professionals.,"According to Section 1 of Abbott Laboratories' 2007 Form 10-K filing ([1]), Abbott's principal business is the discovery, development, manufacture, and sale of a broad and diversified line of health care products.
+
+In particular, Abbott has four reportable revenue segments: Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Vascular Products. This indicates that Abbott sells its pharmaceutical products under the Pharmaceutical Products segment ([1], [3]).
+
+However, in 2014, Abbott announced that it will sell its developed markets branded generics pharmaceuticals business to Mylan, which was previously included in the Established Pharmaceutical Products segment. Since then, this business is classified as discontinued operations ([2]).",0.0833,1.0,0.8,1.0,0.029,6.473,6.502
+BM25,abt_003,What is Humira and what conditions does it treat?,ABBOTT LABORATORIES,medium,section_1,"Humira is a pharmaceutical product sold by Abbott Laboratories used to treat various conditions including rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, psoriasis and Crohn's disease.","The answer can be found in Abbott Laboratories' 2012 MD&A filing.
+
+According to the filing, HUMIRA is a proprietary pharmaceutical product that treats several conditions, including:
+
+- Ankylosing spondylitis
+- Pediatric Crohn's disease
+- Ulcerative colitis (with global regulatory applications submitted in early 2011)
+- Uveitis (with Phase III trials ongoing in the U.S., EU, and Japan)
+- Peripheral and axial spondyloarthritis (with Phase III trials ongoing in the U.S. and EU)
+- Hidradenitis suppurativa (with Phase III trials ongoing in the U.S. and EU)
+- Juvenile idiopathic arthritis (approval obtained in July 2011 for Japan)
+
+These conditions are mentioned in Abbott Laboratories' MD&A filing on February 21, 2012 [5].",0.1037,0.2,0.75,1.0,0.033,6.98,7.013
+BM25,abt_004,How does Abbott recognize revenue?,ABBOTT LABORATORIES,hard,section_8,"Abbott records revenue when certain conditions are met such as when a product is delivered or a service is performed, and allocates revenue based on the relative selling price of each deliverable.","According to Section 3 of the financial statements and Section MD&A of the 2019-02-22 filing, Abbott recognizes revenue when it transfers promised goods or services to customers in an amount that reflects the consideration to which the entity expects to be entitled in exchange for those goods or services.
+
+This is stated in Note 3 - Revenue, where it is mentioned that ""Abbott's revenues are derived primarily from the sale of a broad line of health care products under short-term receivable arrangements."" (Source: [2])
+
+Additionally, Section MD&A also mentions the impact of adopting ASU 2014-09 on Abbott's revenue recognition. It states that ""The core principle of the ASU is that an entity should recognize revenue when it transfers promised goods or services to customers in an amount that reflects the consideration to which the entity expects to be entitled in exchange for those goods or services."" (Source: [3])",0.0889,1.0,0.6667,1.0,0.019,7.74,7.758
+BM25,abt_005,What types of products does Abbott's nutritional segment include?,ABBOTT LABORATORIES,medium,section_1,Abbott's nutritional segment includes a broad line of adult and pediatric nutritionals including prepared infant formula sold primarily on the recommendation of physicians and health care professionals.,"Abbott's Nutritional Products segment includes a broad line of pediatric and adult nutritional products, which can be broadly categorized into the following:
+
+- Prepared infant formula and follow-on formula
+- Adult and other pediatric nutritional products
+- Nutritional products used in enteral feeding in health care institutions
+- Specialty pharmaceuticals (e.g. Survanta)
+- Zone Perfect bars and the EAS family of nutritional brands
+
+These types of products are sold directly to consumers, often on the recommendation of physicians or other healthcare professionals, as well as to health care facilities and government agencies.
+
+[1], [2], [3], and [4]",0.3226,1.0,0.8333,0.6667,0.032,7.617,7.649
+BM25,adr_001,What cybersecurity risks does Adams Resources & Energy disclose?,"ADAMS RESOURCES & ENERGY, INC.",easy,section_1A,"Adams Resources discloses that it is subject to cybersecurity risks and may incur increasing costs to enhance security. Security breaches could expose the company to loss, misuse or interruption of sensitive information and result in operational impacts, reputational harm, and liability.","The provided filings do not contain enough information to answer this question. There is no mention of cybersecurity risks in any of the SEC filings provided, including ADAMS RESOURCES & ENERGY, INC. AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF OPERATIONS (2019-03-11), ADAMS RESOURCES & ENERGY, INC. AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF CASH FLOWS (2020-03-06), ADAMS RESOURCES & ENERGY, INC. AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY (2018-03-12), and ADAMS RESOURCES & ENERGY, INC. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (2009-03-24) and (2013-03-15).",0.1167,1.0,0.8571,0.8333,0.028,8.498,8.526
+BM25,adr_002,What climate-related risks does Adams Resources disclose?,"ADAMS RESOURCES & ENERGY, INC.",medium,section_1A,"Adams Resources discloses that it may not be able to recover through insurance damages, losses or costs that may result from potential physical effects of climate change.","According to Section 9. Risk Factors (Date: 2021-03-05), Adams Resources discloses the following climate-related risks:
+
+""we are subject to risks associated with climate change... Potential adverse effects could include disruption of our marketing and transportation activities, including, for example, damages to our facilities from powerful winds or floods, or increases in our costs of operation or reductions in the efficiency of our operations...""
+
+Additionally, Section 9. Risk Factors (Date: 2021-03-05) mentions that climate change ""could have an effect on the severity of weather (including hurricanes and floods), sea levels, the arability of farmland and water availability and quality.""
+
+No other specific climate-related risks are disclosed in the provided context.
+
+[1]",0.1168,1.0,0.8,0.6667,0.028,6.67,6.698
+BM25,adr_003,What accounting standards changes affected Adams Resources financial statements?,"ADAMS RESOURCES & ENERGY, INC.",hard,section_8,Adams Resources was affected by SFAS No. 145 which amended SFAS No. 13 on Accounting for Leases to eliminate an inconsistency between required accounting for sale-leaseback transactions.,"The adopted FASB ASU 2015-17, Balance Sheet Classification of Deferred Taxes, changed how deferred income taxes are presented on the balance sheet for Adams Resources & Energy, Inc. effective January 1, 2015 (Source: ADAMS RESOURCES & ENERGY, INC. AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF OPERATIONS [5], Note 1).
+
+There is no other information about accounting standards changes in the provided context.
+
+[5]",0.0682,1.0,0.625,0.75,0.034,7.377,7.412
+BM25,aar_001,What services does AAR Corp provide to government customers?,AAR CORP,medium,section_1,"AAR Corp provides fleet management and operations of customer-owned aircraft for the U.S. Department of State under the INL/A WASS contract, and customized performance-based supply chain logistics programs for the U.S. Department of Defense and foreign governments.","According to the provided SEC filings, AAR Corp provides customized flight hour component inventory and repair programs, warranty claim management, outsourcing programs for engine and airframe parts and components in support of their airline and government customers' maintenance activities. Additionally, they provide fleet management and operations of customer-owned aircraft for the U.S. Department of State (DoS) under the INL/A WASS contract.
+
+Source: [3] and [5]
+
+Note that while the exact nature of the performance-based supply chain logistics programs is not specified in these filings, it is mentioned that they provide customized performance-based supply chain logistics programs in support of the U.S. Department of Defense (""DoD"") and foreign governments (Source: [4]).",0.4626,1.0,0.6667,1.0,0.033,7.414,7.447
+BM25,aar_002,What are AAR Corp's main business segments?,AAR CORP,easy,section_1,"AAR Corp has two main segments: Aviation Services which provides aftermarket support for commercial aviation and government/defense markets accounting for approximately 95% of sales, and Expeditionary Services which provides products supporting movement of equipment and personnel.","According to the provided context, AAR Corp's main business segments are:
+
+Aviation Services and Technology Products.
+
+This information is stated in Item 1. BUSINESS of AAR CORP's 2014-07-17 filing ([2]).
+
+Additionally, prior to the second quarter of fiscal year 2013, AAR Corp reported four business segments: Aviation Supply Chain, Government and Defense Services, Maintenance, Repair and Overhaul, and Structures and Systems. However, as stated in Item 1. BUSINESS of AAR CORP's 2005-07-22 filing ([4]), the company changed its segment presentation to reflect the way its Chief Executive Officer evaluates performance and the way it is organized internally, resulting in the current two-segment structure.
+
+It's worth noting that Aviation Services includes most of the former Government and Defense Services segment, and Technology Products represents the former Structures and Systems business segment.",0.1325,1.0,0.8,0.8571,0.026,8.562,8.588
+BM25,aar_003,How did COVID-19 impact AAR Corp's business in fiscal 2020?,AAR CORP,medium,section_1,"COVID-19 significantly impacted AAR Corp in Q4 fiscal 2020 by decreasing commercial aircraft flying and flight hours. The company implemented cost reduction actions including hiring freeze, reducing non-essential spend, furloughs, reduction in force, and closure of an airframe maintenance facility in Duluth Minnesota.","The provided filings do not contain enough information to answer this question about AAR Corp, as the context is related to CECO Environmental Corp and Abbott Laboratories, but there is no mention of AAR Corp or its business impact from COVID-19 in the provided filings.
+
+However, for companies like CECO Environmental Corp and Abbott Laboratories that have faced similar challenges, we can look at their own experiences. For example, according to [1] and [4], CECO Environmental Corp has stated that the continued spread of COVID-19 will continue to have a significant impact on its business, and may affect the demand for its products and disrupt its supply chain.
+
+Similarly, in [3] and [5], Air Products & Chemicals, Inc. has discussed the negative impact of COVID-19 on its operating results, primarily in the regional industrial gas segments, due to containment and mitigation measures worldwide.",0.0968,0.0,0.5714,1.0,0.039,7.687,7.726
+BM25,aar_004,What cybersecurity risks does AAR Corp disclose?,AAR CORP,medium,section_1A,"AAR Corp discloses that its systems and technologies or those of third parties could fail or become unreliable due to equipment failures, software errors, or cybersecurity attacks, which could disrupt operations.","ADAMS RESOURCES & ENERGY, INC. | Section: Risk Factors | Date: 2018-03-12
+
+AAR Corp discloses the following cybersecurity risks:
+
+* Reduced revenue and increased costs due to cyber-attacks or disruptions to its information technology systems
+* Liability claims, fines, and harm to its competitive position
+* Increased costs in connection with efforts to enhance and ensure security
+* Cybersecurity breaches that could expose it to a risk of loss, misuse, or interruption of sensitive and critical information and functions
+* Operational impacts, reputational harm, competitive disadvantage, litigation, regulatory enforcement actions, and liability
+* Inability to prevent all rapidly evolving types of cyberattacks
+* Increasing costs for technology, personnel, and services to enhance security or respond to occurrences
+
+These risks are mentioned in Section: Risk Factors, Date: 2018-03-12.",0.1266,0.0,0.8,0.5,0.021,7.492,7.513
+BM25,aar_005,How many FAA certificated repair stations does AAR Corp operate?,AAR CORP,easy,section_1,"AAR Corp has 12 FAA certificated repair stations in the United States, Canada, and Europe. Of these, seven are also EASA certificated and three are also Transport Canada Civil Aviation certificated.","According to various SEC filings, AAR Corp operates 13 FAA certificated repair stations in the United States, Canada, and Europe.
+
+[Source: [1] - 2019-07-18, and [4] - 2017-07-12]
+
+These 13 certificated FAA repair stations are distributed among the Aviation Services segment (12) and Expeditionary Services segment (1).",0.4103,1.0,0.75,1.0,0.033,4.737,4.77
+BM25,ceco_001,How does economic conditions affect CECO Environmental's business?,CECO ENVIRONMENTAL CORP,medium,section_1,"Favorable economic conditions generally lead to plant expansions and construction of new industrial sites benefiting CECO, while weak economic conditions negatively impact demand for their environmental products and services.","The provided filings do not contain enough information to answer this question directly. However, it is mentioned that CECO Environmental evaluates their estimates on an ongoing basis using their historical experience, as well as other factors they believe appropriate under the circumstances, such as current economic conditions (see [1], [2], [3], [4], and [5]).",0.0964,1.0,0.5,0.5,0.025,5.432,5.457
+BM25,ceco_002,What operational model does CECO Environmental use?,CECO ENVIRONMENTAL CORP,hard,section_7,CECO Environmental uses a centralized operational model throughout its operations which has provided certain efficiencies over a more decentralized model.,"According to CECO Environmental Corp.'s 2012-03-16 SEC filing, Section MD&A, the company uses a ""hub and spoke"" business model in which executive management, finance, administrative and marketing staff serves as the hub while the sales channels serve as spokes (Source: [1]).
+
+This operational model is also described in more detail by the company on 2016-03-23 and 2017-03-14 SEC filings, Section Business, where it states that this model has provided certain efficiencies over a more decentralized model (Sources: [2], [3]).",0.2828,1.0,0.8,1.0,0.026,6.468,6.494
+BM25,cross_001,Which companies disclose cybersecurity as a risk factor?,MULTIPLE,hard,section_1A,"Adams Resources & Energy, AAR Corp, and Matson Inc all disclose cybersecurity risks in their Risk Factors sections, noting that security breaches could expose them to loss of sensitive information and operational disruption.","ADAMS RESOURCES & ENERGY, INC. | Section: Risk Factors | Date: 2020-03-06
+
+ADAMS RESOURCES & ENERGY, INC., BK Technologies Corp and CECO ENVIRONMENTAL CORP are the companies that disclose cybersecurity as a risk factor.
+
+Additionally, BK Technologies Corp (section: Risk Factors) also mentions the risk of exposure to customers or partners to cybersecurity attacks.",0.2069,1.0,0.8333,0.5,0.028,5.12,5.149
+BM25,cross_002,What government agencies are mentioned as customers across the filings?,MULTIPLE,medium,section_1,The U.S. Department of Defense and U.S. Department of State are mentioned as government customers by AAR Corp. Adams Resources also mentions government contracts.,"The government agencies mentioned as customers across the filings are:
+
+Spain, Portugal, and the United Kingdom.
+
+These countries are mentioned in [1] (2010-11-23) as regions where Air Products & Chemicals, Inc. tenders for significant parts of the healthcare business with government agencies.
+
+Additionally, the U.S. government is also mentioned as a customer across the filings, specifically through its branches, agencies, and departments, such as the DoD (Department of Defense).
+
+No specific government agencies are mentioned by name in [1], [2], [3], or [5].",0.1495,1.0,0.8571,1.0,0.03,6.385,6.415
+BM25,cross_003,What environmental regulations affect these companies?,MULTIPLE,hard,section_1A,AAR Corp mentions environmental legal requirements and associated expenditures. Adams Resources discloses climate-related physical risks and potential inability to recover damages through insurance.,"According to the provided context from SEC filings:
+
+ADAMS RESOURCES & ENERGY, INC. | Section: Risk Factors | Date: 2019-03-11
+Federal, state or local government agencies may impose environmental regulations that increase costs and/or terminate or suspend operations.
+
+(Source: [3])
+
+Additionally, ADAMS RESOURCES & ENERGY, INC. | Section: Risk Factors | Date: 2009-03-24
+Environmental, labor or other regulations that increase costs and/or terminate or suspend operations are also mentioned as a potential risk factor for the company.
+
+(Source: [4])",0.0784,1.0,0.4,0.5,0.019,4.96,4.979
+BM25,bkt_001,What sector does BK Technologies operate in?,BK Technologies Corp,easy,section_1,BK Technologies Corp operates in the communications technology sector providing mission-critical communications equipment.,"BK Technologies Corp operates in the Wireless Communications Equipment sector.
+
+This answer is supported by [1] and [3], which describe the company's business as providing two-way radio communications equipment of high quality and reliability, consisting of two-way land mobile radios, repeaters, base stations, and related components and subsystems. Additionally, [5] provides general information about the company's products and markets served, further confirming this sector classification.
+
+[1]: ""In business for over 70 years, BK designs, manufactures and markets wireless communications products consisting of two-way land mobile radios (“LMRs”), repeaters, base stations and related components and subsystems.""
+
+[3]: ""BK Technologies Corporation (NYSE American: BKTI) ... provides two-way radio communications equipment of high quality and reliability. In business for over 70 years, BK designs, manufactures and markets American made wireless communications products consisting of two-way land mobile radios (“LMRs”), repeaters, base stations and related components and subsystems.""
+
+[",0.1139,1.0,0.8,0.8571,0.027,8.328,8.355
+BM25,apd_001,What business does Air Products and Chemicals operate in?,"Air Products & Chemicals, Inc.",easy,section_1,"Air Products and Chemicals operates in the industrial gases and chemicals business, providing atmospheric and process gases and related equipment to various industries.","Air Products and Chemicals, Inc. operates in several businesses, including:
+
+* Energy
+* Electronics
+* Chemicals
+* Metals
+* Manufacturing
+
+According to Section 1 of the Business section in Air Products and Chemicals, Inc.'s 2017-11-16 SEC filing [1], the Company serves energy, electronics, chemicals, metals, and manufacturing customers globally with a unique portfolio of products, services, and solutions that include atmospheric gases, process and specialty gases, equipment, and services.
+
+Additionally, the Company has built leading positions in growth markets such as helium and natural gas liquefaction (see [1]).
+
+Therefore, Air Products and Chemicals, Inc. operates in a diversified range of industries, including energy, electronics, chemicals, metals, and manufacturing.",0.1527,1.0,0.8333,1.0,0.027,7.502,7.529
+BM25,acu_001,What risks does ACME United disclose to investors?,ACME UNITED CORP,easy,section_1A,ACME United discloses that ownership of the company's securities involves a number of risks and uncertainties that potential investors should carefully consider.,"The provided filings do not contain enough information to answer this question. The SEC 10-K filings from Acme United Corp for the years 2015-2019 and 2021 only provide general information about the company's operations, financial condition, and changes in stockholders' equity, but they do not specifically disclose risks to investors.
+
+The notes to the consolidated financial statements (e.g., [1], [2], etc.) mention that the company is structured and evaluated based on geographic location, but they do not explicitly identify specific risks or hazards associated with this structure. Therefore, I cannot provide a more detailed answer about the risks disclosed by Acme United to investors.",0.0952,1.0,0.8,0.4,0.028,5.644,5.672
+BM25,mat_001,What cybersecurity risks does Matson disclose?,"Matson, Inc.",easy,section_1A,Matson discloses that its information technology systems have in the past and may in the future be exposed to cybersecurity risks and other disruptions that could adversely impact the company.,"Matson discloses the following cybersecurity risks:
+
+* Substantial aspects of their business depend on the secure operation of their computer systems and websites ([2] Section: Business, Date: 2020-02-28).
+* They are subject to cybersecurity risks and may incur increasing costs in connection with their efforts to enhance and ensure security and in response to actual or attempted cybersecurity attacks ([3], [4], [5] Sections: Risk Factors, Dates: 2019-03-11, 2021-02-26, and 2013-03-15).
+* Security breaches could expose them to a risk of loss, misuse, or interruption of sensitive and critical information and functions, including their own proprietary information and that of their customers, suppliers, and employees ([3], [4], [5] Sections: Risk Factors, Dates: 2019-03-11, 2021-02-26, and 2013-03-15).
+* Cybersecurity risks",0.1351,0.4,0.75,1.0,0.021,7.991,8.012
+BM25,temp_001,How did AMD's competitive position change between 2007 and 2021?,ADVANCED MICRO DEVICES INC,hard,section_1A,In 2007 AMD faced competition primarily from Intel in microprocessors. By 2021 AMD's competitive concerns expanded to include GPU competitors and the expansion of Intel into integrated graphics. AMD's risk disclosures became more detailed over time.,The provided filings do not contain enough information to answer this question about AMD's competitive position change between 2007 and 2021.,0.1053,0.2,0.8571,1.0,0.038,3.716,3.754
+BM25,temp_002,When did Abbott Laboratories first disclose its four reportable segments?,ABBOTT LABORATORIES,hard,section_1,"Abbott Laboratories disclosed four reportable revenue segments including Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Vascular Products in filings from at least 2008 through 2011.","The provided filings do not contain enough information to answer this question. The exact date when Abbott Laboratories first disclosed its four reportable segments is not mentioned in the context from the SEC filings. However, it can be inferred that the four reportable segments were already present before January 1, 2004, as stated in Note [2], but the specific date of their disclosure is not provided.",0.1758,1.0,0.8571,0.6667,0.033,5.133,5.166
+Hybrid,amd_001,What are AMD's main competitive risks in the processor market?,ADVANCED MICRO DEVICES INC,easy,section_1A,"AMD faces intense competition from Intel in microprocessors and faces risks including competitors introducing better products faster, aggressive pricing pressure, and competitors having greater access to complementary technologies.","According to Section MD&A of Advanced Micro Devices Inc.'s 2004-03-09 filing, AMD's main competitive risks in the processor market include:
+
+* Intel’s dominant position and aggressive marketing and pricing strategies
+* Losing Microsoft Corporation's support for their products, which would significantly affect their ability to market processors (Source: [2])
+* The pace at which they expect to be able to convert production in Fab 30 to 90-nanometer process technology
+* Their ability to maintain adequate selling prices of microprocessors despite increasingly aggressive Intel pricing strategies and marketing programs (Source: [2])
+
+These risks are further emphasized in Section Risk Factors of Advanced Micro Devices Inc.'s 2011-02-18 filing, where it is stated that:
+
+* Intel's dominant position in the microprocessor market and integrated graphics chipset market
+* Its existing relationships with top-tier OEMs
+* Its aggressive marketing and pricing strategies could result in lower unit sales and a lower average selling price for their products",0.0773,1.0,0.8333,1.0,0.13,9.273,9.404
+Hybrid,amd_002,What was AMD's strategy for the enterprise processor market?,ADVANCED MICRO DEVICES INC,medium,section_7,AMD aimed to increase its share of the enterprise market with tier-one OEM customers to utilize capacity of their planned 300-millimeter wafer fabrication facility and marketed the AMD Opteron processor for enterprise customers.,"The provided filings do not contain enough information to answer this question directly. However, based on [2] which discusses the company's general microprocessor market strategy and risks in the consumer and commercial markets.
+
+In [2], it mentions that AMD needs to ""increase sales of our x86 microprocessor products to existing customers and develop new customers in both consumer and commercial markets, particularly the latter."" It also highlights the importance of increasing share of the enterprise market with tier-one OEM customers to utilize the capacity of planned 300-millimeter wafer fabrication facility.",0.3089,1.0,0.6,0.75,0.062,6.876,6.938
+Hybrid,amd_003,How did AMD describe its manufacturing strategy?,ADVANCED MICRO DEVICES INC,medium,section_1,AMD planned to transition to new process technologies at a fast pace including 90-nanometer process technology and build a 300-millimeter wafer fabrication facility to offer higher-performance microprocessors in greater volumes.,"The provided filings do not contain enough information to answer this question specifically about AMD's manufacturing strategy. However, we can look at the formation of GLOBALFOUNDRIES (GF), a manufacturing joint venture with Advanced Technology Investment Company LLC (ATIC) and West Coast Hitech L.P.
+
+In 2009, AMD formed GF as follows: ""In March 2009, we formed GLOBALFOUNDRIES (GF), a manufacturing joint venture, with Advanced Technology Investment Company LLC (ATIC), and West Coast Hitech L.P. (WCH), acting through its general partner, West Coast Hitech G.P. Ltd.""
+
+While this information provides some details about the company that produces AMD's semiconductors, it does not explicitly describe AMD's manufacturing strategy.
+
+Therefore, The provided filings do not contain enough information to answer this question.",0.0946,0.8,0.75,0.5,0.051,8.881,8.933
+Hybrid,amd_004,What markets does AMD sell its products in?,ADVANCED MICRO DEVICES INC,easy,section_1,"AMD sells microprocessors and related products in consumer and commercial markets including the PC market, mobile computing market, and enterprise market through tier-one OEM customers.","According to the provided context from SEC filings, AMD sells its products in various markets, including:
+
+* Computation equipment market
+* Communication equipment market
+
+Additionally, it is stated that AMD sells its products in domestic and international markets, with a presence in countries such as Europe and the Asia-Pacific Basin.
+
+It is also mentioned that one of the Company's distributors, Arrow Electronics, Inc., accounted for approximately 13% of 1996 net sales, and Fujitsu Limited accounted for approximately 13% of our consolidated net sales in 2003.",0.1273,1.0,0.8,1.0,0.056,5.388,5.443
+Hybrid,amd_005,What financial risks does AMD disclose related to manufacturing?,ADVANCED MICRO DEVICES INC,hard,section_1A,"AMD discloses risks including failure to achieve yield and volume goals, inability to offer higher-performance microprocessors in significant volume on a timely basis, and risks related to transitioning to new process technologies.","According to SEC filings, AMD discloses several financial risks related to manufacturing:
+
+1. Shortages of essential materials could occur due to interruption of supply or increased demand in the industry, which could lead to a material adverse effect on the Company's operations (Source: [1]).
+2. Failure to procure certain raw materials could result in reduced manufacturing operations, also having a material adverse effect on the Company (Source: [1]).
+3. The potential for foreign currency hedging transactions to affect AMD's consolidated financial statements (Source: [2], [5]).
+
+These risks are not exhaustive, and other specific details about AMD's financial situation might be found in different parts of the documents.",0.1295,1.0,0.8333,0.8,0.058,8.761,8.819
+Hybrid,abt_001,What are Abbott Laboratories' main business segments?,ABBOTT LABORATORIES,easy,section_1,"Abbott Laboratories has four reportable revenue segments: Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Vascular Products.","According to the provided SEC filings, Abbott Laboratories' main business segments are:
+
+* Pharmaceutical Products
+* Diagnostic Products
+* Nutritional Products
+* Vascular Products
+
+These segments were reported in various 10-K filings, including [1] (2011-02-18), [3] (2010-02-19), and [5] (2015-02-27).",0.1786,1.0,0.8,1.0,0.053,5.824,5.878
+Hybrid,abt_002,How does Abbott Laboratories sell its pharmaceutical products?,ABBOTT LABORATORIES,easy,section_1,Abbott's pharmaceutical products are sold primarily on the prescription or recommendation of physicians or other health care professionals.,"According to Abbott Laboratories' 2013-02-15 10-K filing ([1]), Abbott's proprietary pharmaceutical products are ""generally sold directly to wholesalers, distributors, government agencies, health care facilities, specialty pharmacies, and independent retailers from distribution centers and public warehouses"" (Note 6 - Segment and Geographic Area Information).
+
+This information is consistent with Abbott Laboratories' 2010-02-19 10-K filing ([2]), which states that the Company's proprietary pharmaceutical products are ""sold primarily on the prescription or recommendation of physicians or other health care professionals"". However, it also notes that these products are sold directly to retailers, wholesalers, hospitals, healthcare facilities, laboratories, physicians' offices and government agencies throughout the world.
+
+Therefore, Abbott Laboratories sells its pharmaceutical products through a combination of direct sales to healthcare professionals and indirect sales to retailers, wholesalers, and government agencies.",0.2345,1.0,0.8,1.0,0.054,8.234,8.287
+Hybrid,abt_003,What is Humira and what conditions does it treat?,ABBOTT LABORATORIES,medium,section_1,"Humira is a pharmaceutical product sold by Abbott Laboratories used to treat various conditions including rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, psoriasis and Crohn's disease.",The provided filings do not contain enough information to answer this question.,0.0541,0.0,0.0,1.0,0.064,3.658,3.722
+Hybrid,abt_004,How does Abbott recognize revenue?,ABBOTT LABORATORIES,hard,section_8,"Abbott records revenue when certain conditions are met such as when a product is delivered or a service is performed, and allocates revenue based on the relative selling price of each deliverable.","According to Section 3 of Abbott Laboratories' 2018-02-16 Financial Statements ([1]), ""Revenue from license of product rights, or for performance of research or selling activities, is recorded over the periods earned.""
+
+Additionally, in Section 3 of Abbott Laboratories' 2012-02-21 Financial Statements ([3]), it is stated that ""Revenue from the launch of a new product, from an improved version of an existing product, or for shipments in excess of a customer's normal requirements are recorded when the conditions noted above are met.""
+
+In Section 1 of Abbott Laboratories' 2018-02-16 MD&A ([2]), it mentions that ""Abbott recognizes revenue upon delivery of the product or performance of the service and allocates the revenue based on the relative selling price of each deliverable, which is based primarily on vendor specific objective evidence."" However, this does not provide a clear date range for when revenue is recognized.
+
+It's worth noting that Abbott uses the modified",0.1978,1.0,0.6667,1.0,0.044,7.618,7.662
+Hybrid,abt_005,What types of products does Abbott's nutritional segment include?,ABBOTT LABORATORIES,medium,section_1,Abbott's nutritional segment includes a broad line of adult and pediatric nutritionals including prepared infant formula sold primarily on the recommendation of physicians and health care professionals.,"The Nutritional Products segment includes:
+
+* Various forms of prepared infant formula and follow-on formula, including Similac Advance®, Similac®, Similac With Iron, Isomil Advance®, Isomil®, Alimentum®, Gain®, Grow® (References: [1], [2], [3])
+* Adult and other pediatric nutritional products, including Ensure®, Ensure Plus®, Glucerna®, ProSure®, PediaSure®, Pedialyte®, Juven®, Abound®, EleCare®, AdvantEdge®, Myoplex®, Zone Perfect® bars (References: [1], [2], [3])
+* Nutritional products used in enteral feeding in health care institutions, including Jevity®, Osmolite®, Oxepa®, Nepro®, Freego sets (References: [1], [2], [3])
+* The EAS family of nutritional brands, including AdvantEdge® and Myoplex® (Reference: [3])
+* Zone Perfect bars",0.16,1.0,0.5,1.0,0.059,9.81,9.87
+Hybrid,adr_001,What cybersecurity risks does Adams Resources & Energy disclose?,"ADAMS RESOURCES & ENERGY, INC.",easy,section_1A,"Adams Resources discloses that it is subject to cybersecurity risks and may incur increasing costs to enhance security. Security breaches could expose the company to loss, misuse or interruption of sensitive information and result in operational impacts, reputational harm, and liability.","Adams Resources & Energy discloses the following cybersecurity risks:
+
+1. Inability to prevent all types of cyberattacks due to rapidly evolving threats, which may cause increasing costs for technology, personnel, and services to enhance security or respond to occurrences (as stated in Section 10-K Risk Factors, [1] and Notes to Consolidated Financial Statements, [2]).
+2. Exposures to risk of loss, misuse, or interruption of sensitive and critical information and functions, including proprietary information and that of customers, suppliers, and employees (as stated in Section 10-K Risk Factors, [1] and Notes to Consolidated Financial Statements, [2]).
+3. Operational impacts, reputational harm, competitive disadvantage, litigation, regulatory enforcement actions, and liability resulting from security breaches (as stated in Section 10-K Risk Factors, [1] and Notes to Consolidated Financial Statements, [2]).
+
+There is no specific information provided on the types of cybersecurity risks Adams Resources & Energy faces,",0.2595,0.8,0.8571,1.0,0.054,8.299,8.353
+Hybrid,adr_002,What climate-related risks does Adams Resources disclose?,"ADAMS RESOURCES & ENERGY, INC.",medium,section_1A,"Adams Resources discloses that it may not be able to recover through insurance damages, losses or costs that may result from potential physical effects of climate change.","According to Adams Resources' 2021 SEC filings, specifically the Risk Factors section ([4]) and the Financial Statements section ([5]), the company discloses the following climate-related risks:
+
+1. Disruption of marketing and transportation activities due to severe weather events such as hurricanes and floods (Risk Factors [4]).
+2. Potential damage to facilities from powerful winds or floods (Risk Factors [4]).
+3. Increases in costs of operation or reductions in efficiency of operations (Risk Factors [4]).
+4. Increased costs for insurance coverages in the aftermath of climate-related effects (Risk Factors [4]).
+5. Indirect effects on financing and operations, such as disruptions to transportation or process-related services provided by companies or suppliers with whom Adams Resources has a business relationship (Risk Factors [4]).
+
+These risks are associated with climate change and its potential impacts on Adams Resources' operations.
+
+[1], [2]",0.0854,1.0,0.8,1.0,0.057,8.217,8.274
+Hybrid,adr_003,What accounting standards changes affected Adams Resources financial statements?,"ADAMS RESOURCES & ENERGY, INC.",hard,section_8,Adams Resources was affected by SFAS No. 145 which amended SFAS No. 13 on Accounting for Leases to eliminate an inconsistency between required accounting for sale-leaseback transactions.,"The change in accounting standards that affected Adams Resources' financial statements is related to the adoption of FASB ASU 2015-17, Balance Sheet Classification of Deferred Taxes.
+
+According to [1], it was discussed in Note 1 to the financial statements: ""As discussed in Note 1 to the financial statements, the Company changed its method of accounting for deferred income taxes effective January 1, 2015 due to the adoption of FASB ASU 2015-17, Balance Sheet Classification of Deferred Taxes.""
+
+Additionally, [2] mentions that Deloitte & Touche LLP Houston, Texas (the independent registered public accounting firm) conducted audits in accordance with the standards of the Public Company Accounting Oversight Board (United States), but it does not provide further information on the specific change.
+
+Therefore, the answer to your question is that Adams Resources' financial statements were affected by the adoption of FASB ASU 2015-17, Balance Sheet Classification of Deferred Taxes,",0.069,1.0,0.75,1.0,0.062,8.793,8.854
+Hybrid,aar_001,What services does AAR Corp provide to government customers?,AAR CORP,medium,section_1,"AAR Corp provides fleet management and operations of customer-owned aircraft for the U.S. Department of State under the INL/A WASS contract, and customized performance-based supply chain logistics programs for the U.S. Department of Defense and foreign governments.","According to the provided SEC filings, AAR Corp provides various services to government customers in the Aviation Services segment.
+
+As stated in [3] (2010-07-16), AAR Corp conducts its business activities primarily through seven principal operating subsidiaries, and its international business activities are conducted primarily through AAR International, Inc. Specifically, it mentions that AWS, a leading provider of expeditionary airlift services and aircraft modifications, operates a fleet of customized fixed-wing and rotary-wing aircraft in support of worldwide U.S. Department of Defense and Department of State deployments.
+
+In [2] (2019-07-18), AAR Corp mentions that the Government and Defense Services reportable business segment provides fixed-and rotary-wing flight operations, transporting personnel and cargo in support of worldwide U.S. Department of Defense and Department of State deployments.
+
+Additionally, as stated in [5] (2018-07-11), the Aviation Services segment provides customized performance-based supply chain logistics programs in support of the U.S",0.2099,1.0,0.8333,1.0,0.061,8.665,8.726
+Hybrid,aar_002,What are AAR Corp's main business segments?,AAR CORP,easy,section_1,"AAR Corp has two main segments: Aviation Services which provides aftermarket support for commercial aviation and government/defense markets accounting for approximately 95% of sales, and Expeditionary Services which provides products supporting movement of equipment and personnel.","According to the SEC filings:
+
+As of 2013, AAR Corp reports its activities in two business segments: Aviation Services and Technology Products. (Source: [1])
+
+In 2014, the company reaffirms this segment presentation, stating that it reports its activities in two business segments: Aviation Services and Technology Products. (Source: [2])
+
+There is no change in the main business segments reported by AAR Corp as per any other SEC filing mentioned in the context.
+
+So, the answer remains:
+
+AAR Corp's main business segments are Aviation Services and Technology Products.",0.1626,1.0,0.8,1.0,0.055,7.202,7.257
+Hybrid,aar_003,How did COVID-19 impact AAR Corp's business in fiscal 2020?,AAR CORP,medium,section_1,"COVID-19 significantly impacted AAR Corp in Q4 fiscal 2020 by decreasing commercial aircraft flying and flight hours. The company implemented cost reduction actions including hiring freeze, reducing non-essential spend, furloughs, reduction in force, and closure of an airframe maintenance facility in Duluth Minnesota.","According to AAR Corp's SEC filing on July 21, 2020, the coronavirus pandemic has had a material adverse impact on the Company's business, operating results, financial condition, and liquidity.
+
+ Specifically, the pandemic caused passenger airline traffic to decline significantly since March 2020, resulting in a material negative impact on the financial results for the fourth quarter of fiscal 2020. (Source: [5])
+
+Additionally, the Company's business may be adversely affected by factors such as deterioration in the financial condition of its existing and potential customers, reductions in demand from customers caused by weak economic conditions, and other events that impact the aviation industry.
+
+It is also worth noting that AAR Corp's business was not significantly disrupted by COVID-19 in 2020, with substantially all of its manufacturing facilities and distribution centers remaining open and continuing to operate despite temporary closures. (Source: [5])
+
+The provided filings do not contain enough information to answer this question about the specific impact on revenue or sales",0.0788,0.2,0.8571,1.0,0.066,8.882,8.947
+Hybrid,aar_004,What cybersecurity risks does AAR Corp disclose?,AAR CORP,medium,section_1A,"AAR Corp discloses that its systems and technologies or those of third parties could fail or become unreliable due to equipment failures, software errors, or cybersecurity attacks, which could disrupt operations.","According to AAR CORP's 2016-07-13 Section: Business, they are subject to various cybersecurity risks, including:
+
+* ""Cyber-attacks or other disruptions to our information technology systems could lead to reduced revenue, increased costs, liability claims, fines or harm to our competitive position."" ([1])
+* ""Security breaches could expose us to a risk of loss, misuse or interruption of sensitive and critical information and functions, including our own proprietary information and that of our customers, suppliers and employees."" ([2])
+
+Additionally, AAR CORP's 2017-07-12 Section: Business states that they are subject to cybersecurity risks, but does not provide further details.",0.1094,0.6,0.8,1.0,0.049,6.545,6.594
+Hybrid,aar_005,How many FAA certificated repair stations does AAR Corp operate?,AAR CORP,easy,section_1,"AAR Corp has 12 FAA certificated repair stations in the United States, Canada, and Europe. Of these, seven are also EASA certificated and three are also Transport Canada Civil Aviation certificated.","According to [3] Company: AAR CORP | Section: Business | Date: 2017-07-12, AAR Corp operates 13 FAA certificated repair stations in the United States and Europe.
+
+Also, according to [5] Company: AAR CORP | Section: Business | Date: 2014-07-17, AAR Corp has 14 Federal Aviation Administration (""FAA"") licensed repair stations in the United States and Europe.",0.2759,1.0,0.75,1.0,0.05,5.073,5.123
+Hybrid,ceco_001,How does economic conditions affect CECO Environmental's business?,CECO ENVIRONMENTAL CORP,medium,section_1,"Favorable economic conditions generally lead to plant expansions and construction of new industrial sites benefiting CECO, while weak economic conditions negatively impact demand for their environmental products and services.","The provided filings do not contain enough information to answer this question comprehensively. However, according to the MD&A sections of CECO Environmental Corp.'s 10-K filings, the company states that they evaluate their estimates on an ongoing basis using their historical experience, as well as other factors they believe appropriate under the circumstances, such as current economic conditions (see [1], [2], [3], [4], and [5]).",0.1075,1.0,0.5,0.6667,0.061,5.833,5.894
+Hybrid,ceco_002,What operational model does CECO Environmental use?,CECO ENVIRONMENTAL CORP,hard,section_7,CECO Environmental uses a centralized operational model throughout its operations which has provided certain efficiencies over a more decentralized model.,"CECO Environmental uses an asset-light business model, which is described in various SEC filings as a strategic approach to targeting specific niche-focused end markets through a diversified global presence.
+
+[1] states that CECO has ""an attractive asset-light business model, strategically balanced across the world,"" indicating a focus on leveraging existing assets rather than significant investments.
+
+[2], [3], [4], and [5] all describe CECO's business as serving diverse industries globally through an ""asset-light"" or ""asset-light based"" approach. 
+
+These SEC filings indicate that CECO Environmental uses an asset-light operational model to serve various niche markets, focusing on delivering innovative technology and application expertise while minimizing significant investments.",0.096,1.0,0.8,1.0,0.052,7.091,7.142
+Hybrid,cross_001,Which companies disclose cybersecurity as a risk factor?,MULTIPLE,hard,section_1A,"Adams Resources & Energy, AAR Corp, and Matson Inc all disclose cybersecurity risks in their Risk Factors sections, noting that security breaches could expose them to loss of sensitive information and operational disruption.","The following companies disclose cybersecurity as a risk factor:
+
+* BK Technologies Corp (2020-03-04)
+* Matson, Inc. (2021-02-26)
+* ADAMS RESOURCES & ENERGY, INC. (2020-03-06)
+* AAR CORP (2016-07-13)
+
+All four companies explicitly mention cybersecurity as a risk factor in their 10-K filings.",0.2368,1.0,0.8333,0.6667,0.053,5.602,5.655
+Hybrid,cross_002,What government agencies are mentioned as customers across the filings?,MULTIPLE,medium,section_1,The U.S. Department of Defense and U.S. Department of State are mentioned as government customers by AAR Corp. Adams Resources also mentions government contracts.,"According to the provided SEC filings:
+
+The DoD (Department of Defense) and its contractors are mentioned as customers across the filings.
+
+Specifically:
+
+* AAR CORP's 2017 filing states that ""the majority of our U.S. government contracts are for products and services supporting the DoD logistics and mobility strategy, as well as for expeditionary airlift services.""
+* AAR CORP's 2016 filing also mentions ""the DoD"" and its contractors as customers.
+* AAR CORP's 2015 filing states that ""our principal customers in the Expeditionary Services segment include the DoD and its contractors"".
+
+No other government agencies are specifically mentioned across the filings.
+
+[3] (AAR CORP, 2017-07-12)
+[4] (AAR CORP, 2016-07-13)
+[5] (AAR CORP, 2015-07-15)",0.1618,1.0,0.8571,0.8571,0.058,8.422,8.48
+Hybrid,cross_003,What environmental regulations affect these companies?,MULTIPLE,hard,section_1A,AAR Corp mentions environmental legal requirements and associated expenditures. Adams Resources discloses climate-related physical risks and potential inability to recover damages through insurance.,"According to the provided SEC filings, Air Products & Chemicals, Inc. is subject to extensive federal, state, local, and foreign environmental and safety laws and regulations concerning:
+
+* Emissions in the air
+* Discharges to land and water
+* The generation, handling, treatment, and disposal of hazardous waste and other materials.
+
+This information can be found in sections 1 and 3 of the Risk Factors section for various filing dates, including [1] (2012-11-20), [2] (2009-11-25), and [3] (2013-11-26).
+
+Additionally, according to the same filings, Air Products & Chemicals, Inc. is also subject to regulations addressing:
+
+* Greenhouse gases (GHG)
+* Export controls or other regulatory restrictions
+* Import/export restrictions and taxes
+
+This information can be found in sections 4 and 5 of the Risk Factors section for various filing dates, including [4] (2008-",0.0513,1.0,0.4,0.4,0.051,7.166,7.218
+Hybrid,bkt_001,What sector does BK Technologies operate in?,BK Technologies Corp,easy,section_1,BK Technologies Corp operates in the communications technology sector providing mission-critical communications equipment.,"BK Technologies operates in the wireless communications equipment sector, specifically in the design, manufacturing, and marketing of two-way land mobile radios and related products. This is stated in sections [1] and [4] of the 2020-03-04 filing.
+
+According to section [1], ""The primary business of its wholly-owned operating subsidiary, BK Technologies, Inc., is the designing, manufacturing and marketing of wireless communications equipment primarily consisting of two-way land mobile radios and related products...""
+
+Also, in section [4], it states that ""In business for over 70 years, BK designs, manufactures and markets wireless communications products consisting of two-way land mobile radios (“LMRs”), repeaters, base stations and related components and subsystems.""
+
+Furthermore, in section [2] of the 2019-03-04 filing, it mentions that ""The primary business of BK Technologies, Inc. and its subsidiaries (collectively, the “Company”) is the designing, manufacturing and marketing of wireless communications",0.0915,1.0,0.8,0.8571,0.053,8.192,8.246
+Hybrid,apd_001,What business does Air Products and Chemicals operate in?,"Air Products & Chemicals, Inc.",easy,section_1,"Air Products and Chemicals operates in the industrial gases and chemicals business, providing atmospheric and process gases and related equipment to various industries.","Air Products and Chemicals operates in various businesses, including:
+
+* Atmospheric gases
+* Process and specialty gases
+* Equipment for air separation
+* Performance materials and chemicals
+* Electronics materials
+* Specialty surfactants
+* Adhesives
+* Refinery hydrogen
+* Semiconductors materials
+* Natural gas liquefaction
+* Advanced coatings and adhesives
+* Hydrogen production
+
+These businesses are presented in different reporting segments, including:
+
+* Industrial Gases - Americas
+* Industrial Gases - EMEA (Europe, Middle East, and Africa)
+* Industrial Gases - Asia
+* Industrial Gases - Global
+* Materials Technologies
+* Energy-from-Waste
+* Corporate and other
+
+Source: [1], [2], [3], and [5]",0.192,1.0,0.8333,1.0,0.065,8.058,8.122
+Hybrid,acu_001,What risks does ACME United disclose to investors?,ACME UNITED CORP,easy,section_1A,ACME United discloses that ownership of the company's securities involves a number of risks and uncertainties that potential investors should carefully consider.,"ACME United discloses the following risks to investors:
+
+1. Failure to comply with privacy and information security laws, for failing to protect personal information, or for misusing personal information.
+2. Loss or misuse of confidential or personal information, which could disrupt operations, damage reputation, and expose the company to claims from various parties.
+3. Compromises of information systems or unauthorized access to confidential information, which could harm business or damage reputation.
+4. Computer hackers attempting to penetrate network security and misappropriate sensitive information.
+5. An associate, contractor, or third-party with whom they do business attempting to circumvent security measures to obtain information or cause a breach.
+6. Inability to maintain or raise prices in response to inflation and increasing costs, which could have a negative effect on results of operations.
+7. Future market and competitive pressures that may prohibit the company from raising prices to offset increased product costs, freight costs, and other inflationary items.
+
+These risks are disclosed in ACME United's",0.0978,1.0,0.8,0.8889,0.056,7.633,7.689
+Hybrid,mat_001,What cybersecurity risks does Matson disclose?,"Matson, Inc.",easy,section_1A,Matson discloses that its information technology systems have in the past and may in the future be exposed to cybersecurity risks and other disruptions that could adversely impact the company.,"Matson, Inc. discloses the following cybersecurity risks:
+
+According to Section 5 of their 2021-02-26 Risk Factors filing ([4]), the Company's information technology systems have in the past and may in the future be exposed to cybersecurity risks and other disruptions that could impair the Company's ability to operate and adversely affect its business. The shipping industry is a more frequent target of cyber attacks than some other industries because of the essential nature of these services.
+
+Specifically, Matson mentions the following potential cybersecurity threats:
+
+- Computer viruses
+- Hacking
+- Malware
+- Denial of service attacks
+- Cyber terrorism
+- Circumvention of security systems
+- Malfeasance
+- Breaches due to employee error
+- Natural disasters
+- Telecommunications failure
+- Other catastrophic events
+
+These risks could result in the loss of confidential, sensitive or proprietary information, interruptions in its service or production, or otherwise impact the Company's ability to conduct business operations, and could",0.2842,0.2,0.75,1.0,0.046,8.489,8.534
+Hybrid,temp_001,How did AMD's competitive position change between 2007 and 2021?,ADVANCED MICRO DEVICES INC,hard,section_1A,In 2007 AMD faced competition primarily from Intel in microprocessors. By 2021 AMD's competitive concerns expanded to include GPU competitors and the expansion of Intel into integrated graphics. AMD's risk disclosures became more detailed over time.,"The provided filings do not contain enough information to answer this question accurately, particularly regarding the specific changes in AMD's competitive position between 2012 and 2021 as mentioned in question.",0.1212,0.8,0.7143,1.0,0.067,4.316,4.383
+Hybrid,temp_002,When did Abbott Laboratories first disclose its four reportable segments?,ABBOTT LABORATORIES,hard,section_1,"Abbott Laboratories disclosed four reportable revenue segments including Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Vascular Products in filings from at least 2008 through 2011.","The provided filings do not contain enough information to answer this question. According to [1] and [2], Abbott Laboratories had five reportable segments prior to January 1, 2004, but it does not mention when the four reportable segments were first disclosed. The reorganization of segments occurred on January 1, 2004, as stated in [1] and [2], but it does not provide information on when the new segment structure was publicly disclosed.",0.125,1.0,0.8571,0.6667,0.06,5.635,5.695
+Reranked,amd_001,What are AMD's main competitive risks in the processor market?,ADVANCED MICRO DEVICES INC,easy,section_1A,"AMD faces intense competition from Intel in microprocessors and faces risks including competitors introducing better products faster, aggressive pricing pressure, and competitors having greater access to complementary technologies.","According to AMD's 2004 financial filings, their main competitive risks in the processor market include:
+
+* Losing market acceptance for their 64-bit microprocessors based on x86 technology (Section: MD&A | Date: 2004-03-09)
+* Intel's dominant position in the microprocessor market and its continued investment in research and development (Section: MD&A | Date: 2004-03-09)
+* Intel's ability to introduce new competitive products, such as 64-bit processors for servers and workstations (Section: MD&A | Date: 2004-03-09)
+* The pace at which they can convert production in Fab 30 to 90-nanometer process technology (Section: MD&A | Date: 2004-03-09)
+* Maintaining adequate selling prices of microprocessors despite increasingly aggressive Intel pricing strategies and marketing programs (Section: MD&A | Date: 2004-03-09)
+
+These risks are further emphasized in",0.08,1.0,0.8333,1.0,0.492,9.428,9.919
+Reranked,amd_002,What was AMD's strategy for the enterprise processor market?,ADVANCED MICRO DEVICES INC,medium,section_7,AMD aimed to increase its share of the enterprise market with tier-one OEM customers to utilize capacity of their planned 300-millimeter wafer fabrication facility and marketed the AMD Opteron processor for enterprise customers.,"According to Advanced Micro Devices Inc.'s (AMD) 2004-03-09 10-K filing, specifically in Section ""Business"" ([1]), their original equipment manufacturer (OEM), customers incorporate AMD's mobile and x86 microprocessors into a variety of notebook designs for the full-size or desktop-replacement segment of the mobile computing market.
+
+However, their strategy for 2004 is to expand their product portfolio to address the thin-and-light segment of the mobile computing market and increase their share in the full-size segment of this market ([1]).
+
+Additionally, AMD's goal for increasing microprocessor product revenues depends on the success of their x86 microprocessors for servers and workstations, specifically the AMD Opteron and AMD Athlon MP processors ([2]).",0.1571,1.0,0.6,1.0,0.346,7.388,7.734
+Reranked,amd_003,How did AMD describe its manufacturing strategy?,ADVANCED MICRO DEVICES INC,medium,section_1,AMD planned to transition to new process technologies at a fast pace including 90-nanometer process technology and build a 300-millimeter wafer fabrication facility to offer higher-performance microprocessors in greater volumes.,"According to Advanced Micro Devices Inc.'s 1997-03-20 SEC filing ([1]), the Company's manufacturing technology is the key determinant in improving semiconductor products. The Company focuses on three major areas: non-volatile memory technology, logic technology (used by microprocessors, embedded processors, I/O, networking and communications products), and programmable logic technology.
+
+Additionally, item 4 under Section 8 ""Management’s Discussion and Analysis of Financial Condition and Results of Operations"" in AMD's 2002-03-07 SEC filing ([3]), describes the Company's strategy for producing microprocessors with the performance and volume required by customers on a timely basis. The statement also mentions that the Company must make continuing substantial investments in improving its process technologies to remain competitive.
+
+There is no specific mention of AMD's manufacturing strategy in other provided filings.",0.0784,1.0,0.75,0.8333,0.327,9.192,9.519
+Reranked,amd_004,What markets does AMD sell its products in?,ADVANCED MICRO DEVICES INC,easy,section_1,"AMD sells microprocessors and related products in consumer and commercial markets including the PC market, mobile computing market, and enterprise market through tier-one OEM customers.","AMD sells its products in the following markets:
+
+* Europe
+* Asia-Pacific Basin (as stated in [1] and [2])
+* Domestic market in the United States (as stated in [1], [2], [3], and [4])
+
+Additionally, AMD also sells its products through third-party distributors and independent representatives in both domestic and international markets pursuant to non-exclusive agreements (as stated in [1], [2], [3], and [4]).",0.1798,1.0,0.8,1.0,0.335,4.772,5.107
+Reranked,amd_005,What financial risks does AMD disclose related to manufacturing?,ADVANCED MICRO DEVICES INC,hard,section_1A,"AMD discloses risks including failure to achieve yield and volume goals, inability to offer higher-performance microprocessors in significant volume on a timely basis, and risks related to transitioning to new process technologies.","The provided filings do not contain enough information to answer this question specifically regarding manufacturing costs. However, according to [4] Company: ADVANCED MICRO DEVICES INC | Section: Business | Date: 1999-03-29, the Company discloses that if AMD were unable to procure certain of such raw materials, it would be required to reduce its manufacturing operations, which could have a material adverse effect on the Company.
+
+Regarding financial risks related to manufacturing, [4] mentions potential financial risks associated with manufacturing due to interruptions in supply or increased demand in the industry. However, this information is not specific to costs but rather general risks related to procurement and operation of raw materials.",0.1127,1.0,0.8333,1.0,0.337,8.678,9.015
+Reranked,abt_001,What are Abbott Laboratories' main business segments?,ABBOTT LABORATORIES,easy,section_1,"Abbott Laboratories has four reportable revenue segments: Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Vascular Products.","According to the provided SEC filings, Abbott Laboratories' main business segments are:
+
+Established Pharmaceutical Products
+Diagnostic Products
+Nutritional Products
+Vascular Products
+
+These segments are mentioned in various filings from 2005 to 2016.
+
+Specifically, the 2005 filing [2] states that Abbott has four reportable revenue segments: Pharmaceutical Products, Diagnostic Products, Ross Products, and International. However, this is different from the current segmentation structure.
+ 
+In later filings, starting from 2013, Abbott's reportable segments are established as follows:
+
+Abbott Laboratories' main business segments have been reported to be:
+ 
+Established Pharmaceutical Products (2005-2013) - later changed to Established Pharmaceutical Products International (due to change in classification of Mylan acquired generics)
+Diagnostic Products
+Nutritional Products
+Vascular Products
+
+(Refer [1], [2], [4], and [5]).",0.194,1.0,0.8,0.75,0.247,7.682,7.928
+Reranked,abt_002,How does Abbott Laboratories sell its pharmaceutical products?,ABBOTT LABORATORIES,easy,section_1,Abbott's pharmaceutical products are sold primarily on the prescription or recommendation of physicians or other health care professionals.,"According to Abbott Laboratories' financial statements and business practices, as stated in their 2016-02-19 filing ([1]), ""Abbott's products are generally sold directly to retailers, wholesalers, hospitals, health care facilities, laboratories, physicians' offices and government agencies throughout the world.""
+
+Additionally, on February 27, 2015, Abbott completed the sale of its developed markets branded generics pharmaceuticals business to Mylan (Source: [2]), which was previously included in their Established Pharmaceutical Products segment.
+
+It is also mentioned in the 2014-02-21 filing that primary marketing efforts for pharmaceutical products are directed toward securing the prescription of Abbott's brand of products by physicians, and managed care purchasers are increasingly important customers (Source: [5]).",0.128,1.0,0.6,1.0,0.34,6.19,6.531
+Reranked,abt_003,What is Humira and what conditions does it treat?,ABBOTT LABORATORIES,medium,section_1,"Humira is a pharmaceutical product sold by Abbott Laboratories used to treat various conditions including rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, psoriasis and Crohn's disease.","Humira is a proprietary pharmaceutical product developed by Abbott Laboratories. According to the provided context from SEC filings:
+
+* HUMIRA has registration submissions under review, including:
+	+ Ankylosing spondylitis in China, where the registration filing was submitted in September 2011.
+	+ Pediatric Crohn's disease in the U.S., where the European Union (EU) registration was submitted in October 2011 and the U.S. submission is expected in mid-2012.
+* HUMIRA has Phase III trials ongoing for:
+	+ Ulcerative colitis in Japan, uveitis in the U.S., EU, and Japan, peripheral and axial spondyloarthritis in the U.S. and EU, and hidradenitis suppurativa in the U.S. and EU.
+* HUMIRA has also been approved for:
+	+ Juvenile idiopathic arthritis in Japan, obtained in July 2011.
+
+The provided context does not provide a comprehensive",0.1307,0.4,0.5,0.9,0.339,10.177,10.516
+Reranked,abt_004,How does Abbott recognize revenue?,ABBOTT LABORATORIES,hard,section_8,"Abbott records revenue when certain conditions are met such as when a product is delivered or a service is performed, and allocates revenue based on the relative selling price of each deliverable.","According to Abbott Laboratories' 2015-02-27 10-K filing ([1]), in certain of their businesses, primarily within diagnostics and medical optics, they recognize revenue upon delivery of the product or performance of the service.
+
+Specifically, under selling arrangements that include multiple deliverables (e.g., instruments, reagents, procedures, and service agreements), Abbott allocates the revenue based on the relative selling price of each deliverable, which is based primarily on vendor-specific objective evidence.
+
+This policy is in line with their previous practices as stated in their 2014-02-21 10-K filing ([2]) and 2012-02-21 10-K filing ([3]), which also describe their revenue recognition policies for similar arrangements.",0.2273,1.0,0.6667,0.75,0.209,6.229,6.439
+Reranked,abt_005,What types of products does Abbott's nutritional segment include?,ABBOTT LABORATORIES,medium,section_1,Abbott's nutritional segment includes a broad line of adult and pediatric nutritionals including prepared infant formula sold primarily on the recommendation of physicians and health care professionals.,"According to the provided SEC filings, Abbott's Nutritional Products segment includes:
+
+1. Various forms of prepared infant formula and follow-on formula:
+   • Similac Advance
+   • Similac Advance with EarlyShield
+   • Similac with Iron
+   • Similac Sensitive
+   • Similac Sensitive RS
+   • Similac Go&Grow
+   • Similac NeoSure
+   • Similac Organic
+   • Similac Special Care
+   • Similac Total Comfort
+   • Isomil Advance
+   • Isomil
+   • Alimentum
+   • Gain
+   • Grow
+
+2. Adult and other pediatric nutritional products:
+   • Ensure
+   • Ensure Plus
+   • Ensure High Protein
+   • Glucerna
+   • ProSure
+   • PediaSure
+   • PediaSure Sidekicks
+   • EleCare
+   • Juven
+   • Ab",0.1429,1.0,0.6667,1.0,0.332,10.256,10.588
+Reranked,adr_001,What cybersecurity risks does Adams Resources & Energy disclose?,"ADAMS RESOURCES & ENERGY, INC.",easy,section_1A,"Adams Resources discloses that it is subject to cybersecurity risks and may incur increasing costs to enhance security. Security breaches could expose the company to loss, misuse or interruption of sensitive information and result in operational impacts, reputational harm, and liability.","The provided filings do not contain enough information to answer this question accurately. 
+
+While Matson, Inc.'s 2021-02-26 filing does discuss potential cybersecurity risks, it specifically mentions the shipping industry's vulnerability to cyber attacks and the company's reliance on its information technology systems and third-party service providers. However, it does not mention Adams Resources & Energy, Inc. by name.
+
+The provided SEC filings for Adams Resources & Energy, Inc. do not contain any specific information about cybersecurity risks.",0.1017,0.8,0.8571,0.8,0.323,7.688,8.012
+Reranked,adr_002,What climate-related risks does Adams Resources disclose?,"ADAMS RESOURCES & ENERGY, INC.",medium,section_1A,"Adams Resources discloses that it may not be able to recover through insurance damages, losses or costs that may result from potential physical effects of climate change.","According to the provided SEC filings, Adams Resources discloses the following climate-related risks:
+
+* Disruption of marketing and transportation activities due to severe weather events, such as hurricanes and floods ([1], [3])
+* Damages to facilities from powerful winds or floods
+* Increases in costs of operation or reductions in the efficiency of operations
+* Potential increased costs for insurance coverages in the aftermath of climate-related effects ([1], [3])
+* Indirect effects on financing and operations by disrupting transportation or process-related services provided by companies or suppliers with whom they have a business relationship ([1], [3])
+
+Additionally, Adams Resources notes that significant physical effects of climate change could have an indirect effect on their business, financial condition, results of operations, and cash flows ([1]).",0.1457,1.0,0.8,1.0,0.282,7.213,7.495
+Reranked,adr_003,What accounting standards changes affected Adams Resources financial statements?,"ADAMS RESOURCES & ENERGY, INC.",hard,section_8,Adams Resources was affected by SFAS No. 145 which amended SFAS No. 13 on Accounting for Leases to eliminate an inconsistency between required accounting for sale-leaseback transactions.,"According to the provided SEC filings, there are two instances where accounting standard changes affected Adams Resources' financial statements:
+
+[1] In 2015, Adams Resources adopted FASB ASU 2015-17, Balance Sheet Classification of Deferred Taxes (effective January 1, 2015). This change is mentioned in Note 1 to the financial statements for the year ending December 31, 2015.
+
+[4] There is no explicit mention of accounting standard changes affecting Adams Resources' financial statements in [4], but it does mention that the Company changed its method of accounting for derivative instruments effective January 1, 2001.",0.084,1.0,0.75,1.0,0.454,7.346,7.8
+Reranked,aar_001,What services does AAR Corp provide to government customers?,AAR CORP,medium,section_1,"AAR Corp provides fleet management and operations of customer-owned aircraft for the U.S. Department of State under the INL/A WASS contract, and customized performance-based supply chain logistics programs for the U.S. Department of Defense and foreign governments.","Based on the provided context from SEC filings, specifically from Note 4 (Business Segments) of AAR CORP's 2018-07-11 filing:
+
+AAR Corp provides customized performance-based supply chain logistics programs in support of the U.S. Department of Defense (""DoD"") and foreign governments.
+
+Additionally, they provide major airframe maintenance inspection and overhaul services, line maintenance, airframe modifications, structural repairs, avionic service and installation, exterior and interior refurbishment, and engineering services to government customers.
+
+These services are part of their Aviation Services segment, which provides aftermarket support and services for the commercial aviation and government and defense markets.
+
+[4] AAR CORP | 2018-07-11
+
+Note that they also provide customized inventory supply and management, warranty claim management, and outsourcing programs for engine and airframe parts and components in support of their airline and government customers' maintenance activities (as mentioned in Note 5 of their 2015-07-15",0.1921,1.0,0.8333,1.0,0.414,8.374,8.788
+Reranked,aar_002,What are AAR Corp's main business segments?,AAR CORP,easy,section_1,"AAR Corp has two main segments: Aviation Services which provides aftermarket support for commercial aviation and government/defense markets accounting for approximately 95% of sales, and Expeditionary Services which provides products supporting movement of equipment and personnel.","According to [1] (2002-08-26), AAR Corp reports its activities in four business segments:
+
+(i) Inventory and Logistic Services
+(ii) Maintenance, Repair and Overhaul
+(iii) Manufacturing
+(iv) Aircraft and Engine Sales and Leasing
+
+Later, the company restructured its segment presentation in 2013, changing from four to two main business segments: [2] (2013-07-26).
+
+The current main business segments are:
+
+(i) Aviation Services 
+(ii) Technology Products 
+
+These changes were made during the second quarter of fiscal year 2013.",0.1622,1.0,0.6,1.0,0.519,6.723,7.242
+Reranked,aar_003,How did COVID-19 impact AAR Corp's business in fiscal 2020?,AAR CORP,medium,section_1,"COVID-19 significantly impacted AAR Corp in Q4 fiscal 2020 by decreasing commercial aircraft flying and flight hours. The company implemented cost reduction actions including hiring freeze, reducing non-essential spend, furloughs, reduction in force, and closure of an airframe maintenance facility in Duluth Minnesota.","The provided filings do not contain enough information to answer this question about AAR Corp. The context only mentions Air Products & Chemicals, Inc. as a company that was impacted by COVID-19 in fiscal year 2020.
+
+[2] specifically states that Air Products & Chemicals, Inc. estimates that COVID-19 negatively impacted their overall sales by approximately 4%, primarily driven by lower volumes in their merchant business in the regional industrial gas segments.
+
+There is no mention of AAR Corp or its business performance in the provided filings.",0.1085,0.0,0.7143,0.6667,0.353,6.373,6.726
+Reranked,aar_004,What cybersecurity risks does AAR Corp disclose?,AAR CORP,medium,section_1A,"AAR Corp discloses that its systems and technologies or those of third parties could fail or become unreliable due to equipment failures, software errors, or cybersecurity attacks, which could disrupt operations.","According to SEC filings, AAR Corp discloses the following cybersecurity risks:
+
+* The risk of loss, misuse, or interruption of sensitive and critical information and functions, including proprietary information and that of customers, suppliers, and employees ([3], [4])
+* Operational impacts, reputational harm, competitive disadvantage, litigation, regulatory enforcement actions, and liability due to security breaches ([1], [2], [3])
+* Increased costs for technology, personnel, and services to enhance security or respond to occurrences in the event of actual or anticipated cyberattacks ([1], [2])
+* The risk of cyber-attacks or other disruptions to information technology systems that could lead to reduced revenue, increased costs, liability claims, fines, or harm to competitive position ([3])
+
+Note that these risks are not limited to financial losses, but also include reputational and operational impacts.",0.125,0.4,0.8,1.0,0.357,7.815,8.172
+Reranked,aar_005,How many FAA certificated repair stations does AAR Corp operate?,AAR CORP,easy,section_1,"AAR Corp has 12 FAA certificated repair stations in the United States, Canada, and Europe. Of these, seven are also EASA certificated and three are also Transport Canada Civil Aviation certificated.","AAR Corp operates a total of 13 FAA certificated repair stations in the United States, Canada, and Europe, as stated in [2] (2019-07-18).
+
+For the specific number of repair stations in each region, [2] states:
+
+* In the United States: Not specified
+* In Canada: Not specified
+* In Europe: Not specified
+
+However, [1] (2016-07-13) and [2] (2019-07-18) indicate that 7 EASA certificated repair stations are in Europe.",0.3232,1.0,0.75,1.0,0.371,5.344,5.715
+Reranked,ceco_001,How does economic conditions affect CECO Environmental's business?,CECO ENVIRONMENTAL CORP,medium,section_1,"Favorable economic conditions generally lead to plant expansions and construction of new industrial sites benefiting CECO, while weak economic conditions negatively impact demand for their environmental products and services.","According to the SEC filings, economic conditions have an impact on CECO Environmental's business, particularly during periods of economic downturn.
+
+As stated in [2] (2009-03-16), ""Current United States and worldwide economic conditions have resulted in an extraordinary tightening of credit markets coupled with higher interest rates, particularly since the bankruptcy of Lehman Brothers in the third quarter of 2008."" This suggests that economic conditions can affect CECO Environmental's access to capital and ability to operate its business.
+
+In contrast, [1] (2011-03-15) states that ""as economic conditions continue to improve, there will be an increase in the level of pollution control capital expenditures driven by an elevated focus on environmental issues..."" This implies that improved economic conditions can lead to increased spending on capital expenditures for environmental purposes, such as those related to air quality and fluid handling.
+
+More recently, [5] (2019-03-07) notes that ""As future events and their effects",0.1124,1.0,0.8333,1.0,0.28,8.457,8.736
+Reranked,ceco_002,What operational model does CECO Environmental use?,CECO ENVIRONMENTAL CORP,hard,section_7,CECO Environmental uses a centralized operational model throughout its operations which has provided certain efficiencies over a more decentralized model.,"According to CECO Environmental Corp.'s SEC filings, the company uses an asset-light business model (Source: [1], [2], [4]). This means that the company focuses on providing services and solutions to its customers without holding a large amount of physical assets.
+
+In Item 1. Business General section from [2], it is stated that ""We focus on engineering, designing, building, and installing systems that capture, clean and destroy airborne contaminants from industrial facilities as well as equipment that controls emissions from such facilities, as well as fluid handling and filtration systems.""
+
+Additionally, in the same section, it is mentioned that CECO provides innovative technology and application expertise to help companies grow their businesses with safe, clean, and more efficient solutions (Source: [1], [2]). This suggests that the company's operational model is centered around providing services and solutions rather than holding large amounts of physical assets.
+
+In Item 1. Business General section from [4], it is stated that C",0.0795,1.0,0.8,1.0,0.348,8.461,8.81
+Reranked,cross_001,Which companies disclose cybersecurity as a risk factor?,MULTIPLE,hard,section_1A,"Adams Resources & Energy, AAR Corp, and Matson Inc all disclose cybersecurity risks in their Risk Factors sections, noting that security breaches could expose them to loss of sensitive information and operational disruption.","ADAMS RESOURCES & ENERGY, INC., Matson, Inc., BK Technologies Corp, and CECO ENVIRONMENTAL CORP all disclose cybersecurity as a risk factor in their SEC 10-K filings.
+
+Source:
+
+- ADAMS RESOURCES & ENERGY, INC.: [1] (2013-03-15) and [4] (2012-03-23)
+- Matson, Inc.: [2] (2021-02-26)
+- BK Technologies Corp: [3] (2020-03-04)
+- CECO ENVIRONMENTAL CORP: [5] (2021-03-03)",0.2727,1.0,0.6667,0.4,0.325,6.72,7.045
+Reranked,cross_002,What government agencies are mentioned as customers across the filings?,MULTIPLE,medium,section_1,The U.S. Department of Defense and U.S. Department of State are mentioned as government customers by AAR Corp. Adams Resources also mentions government contracts.,"The government agencies mentioned as customers across the filings are:
+
+* U.S. Department of Defense (DOD) ([1], [2], [3], [4])
+* U.S. Forest Service (USFS) is not explicitly mentioned as a customer, but it was mentioned as one of the significant customers in 2009 ([1])
+* U.S. Department of State ([1], [3])
+* Foreign governmental and defense organizations ([2], [3])
+
+Note: The U.S. Department of Interior is mentioned in [1] as part of the government agencies that purchase products from AAR Corp, but it is not explicitly mentioned as a customer across all filings.",0.2203,1.0,0.8571,1.0,0.291,6.997,7.288
+Reranked,cross_003,What environmental regulations affect these companies?,MULTIPLE,hard,section_1A,AAR Corp mentions environmental legal requirements and associated expenditures. Adams Resources discloses climate-related physical risks and potential inability to recover damages through insurance.,"The environmental regulations that affect these companies include:
+
+* Comprehensive Environmental Response, Compensation and Liability Act (CERCLA) in the United States
+* National, state, provincial, and local environmental laws and regulations that impose limitations and prohibitions on the discharge and emission of certain materials and waste.
+* Federal, state, local, and foreign environmental and safety laws and regulations concerning emissions in the air, discharges to land and water, and the generation, handling, treatment, and disposal of hazardous waste and other materials.
+
+These are stated in sources [4], [5] and also implied in [1], [2] and [3].
+
+ACME UNITED CORP (source [5])",0.0645,1.0,0.8,0.5,0.202,5.962,6.164
+Reranked,bkt_001,What sector does BK Technologies operate in?,BK Technologies Corp,easy,section_1,BK Technologies Corp operates in the communications technology sector providing mission-critical communications equipment.,"BK Technologies operates in the wireless communications equipment sector.
+
+This is stated in Item 1. Business General sections of both [1] (2020-03-04) and [2] (2021-03-03), which describe the Company's primary business as designing, manufacturing and marketing two-way land mobile radios and related products, including repeaters, base stations, and components and subsystems.
+
+[1]: BK Technologies Corporation (NYSE American: BKTI) is a holding company that provides two-way radio communications equipment of high quality and reliability. All operating activities described herein are undertaken by our operating subsidiary.
+
+[2]: The Company has only one reportable business segment, which is the designing, manufacturing and marketing of wireless communications products consisting of two-way land mobile radios and related products...",0.1111,1.0,0.8,1.0,0.326,6.96,7.286
+Reranked,apd_001,What business does Air Products and Chemicals operate in?,"Air Products & Chemicals, Inc.",easy,section_1,"Air Products and Chemicals operates in the industrial gases and chemicals business, providing atmospheric and process gases and related equipment to various industries.","According to the provided SEC filings, Air Products & Chemicals operates in several businesses, including:
+
+* Industrial Gases: This is one of the Company's core businesses, providing atmospheric and process gases and related equipment to manufacturing markets, including refining and petrochemical, metals, electronics, and food and beverage. (Sources: [1], [2])
+* Materials Technologies: This business serves the semiconductor, polyurethanes, cleaning and coatings, and adhesives industry. (Source: [1])
+* Energy-from-Waste (EfW): Although the Company committed to exit this business during the second quarter of fiscal year 2016, it was still reported as a segment in 2015. (Source: [2])
+
+In addition to these specific businesses, Air Products & Chemicals also serves energy, electronics, chemicals, metals, and manufacturing customers globally with a unique portfolio of products, services, and solutions that include atmospheric gases, process and specialty gases, equipment, and services.",0.1875,1.0,0.8333,1.0,0.292,8.613,8.906
+Reranked,acu_001,What risks does ACME United disclose to investors?,ACME UNITED CORP,easy,section_1A,ACME United discloses that ownership of the company's securities involves a number of risks and uncertainties that potential investors should carefully consider.,"ACME United discloses the following risks to investors:
+
+1. Failure to comply with privacy and information security laws, which could result in liability for failure to protect personal information or misuse of personal information.
+
+Source: ACME UNITED CORP | Section: Risk Factors | Date: 2014-03-06 ([3]), 2015-03-06 ([2]), 2018-03-15 ([4]), 2020-03-13 ([5]).
+
+2. Disruption to operations, damage to reputation, and exposure to claims from customers, financial institutions, regulators, payment card associations, employees, and other persons due to a compromise of their systems or data.
+
+Source: ACME UNITED CORP | Section: Risk Factors | Date: 2014-03-06 ([3]), 2015-03-06 ([2]), 2018-03-15 ([4]), 2020-03-13 ([5]).
+
+3. Inability to maintain",0.0938,1.0,0.8,0.5,0.196,7.942,8.139
+Reranked,mat_001,What cybersecurity risks does Matson disclose?,"Matson, Inc.",easy,section_1A,Matson discloses that its information technology systems have in the past and may in the future be exposed to cybersecurity risks and other disruptions that could adversely impact the company.,"According to Matson's 2021-02-26 SEC filing, Section Risk Factors, the Company discloses the following cybersecurity risks:
+
+* Cybersecurity risks and other disruptions that could impair the Company's ability to operate and adversely affect its business.
+* Exposure to cyber attacks such as computer viruses, hacking, malware, denial of service attacks, cyber terrorism, circumvention of security systems, malfeasance, breaches due to employee error, natural disasters, telecommunications failure, or other catastrophic events at the Company’s facilities, aboard its vessels or at third-party locations.
+* The potential for business disruptions associated with information technology failures, such as malicious software, attempts to gain unauthorized access to sensitive information, and electronic security breaches that could lead to interruptions in service or production.
+
+These risks may result in the loss of confidential, sensitive, or proprietary information, interruptions in its service or production, damage to its reputation, or liability.",0.1279,0.2,0.75,1.0,0.451,8.225,8.675
+Reranked,temp_001,How did AMD's competitive position change between 2007 and 2021?,ADVANCED MICRO DEVICES INC,hard,section_1A,In 2007 AMD faced competition primarily from Intel in microprocessors. By 2021 AMD's competitive concerns expanded to include GPU competitors and the expansion of Intel into integrated graphics. AMD's risk disclosures became more detailed over time.,"The provided filings do not contain enough information to answer this question specifically about the period between 2007 and 2021, as the context only covers up to 2012.
+
+However, I can provide some general insights based on the provided SEC filings:
+
+According to Advanced Micro Devices Inc.'s (AMD) 2008-02-26 MD&A filing, the company faced challenges in maintaining its competitive position in 2007 due to lower average selling prices for microprocessor products and increased manufacturing costs.
+
+In contrast, AMD's 2012-02-24 MD&A filing shows improvement in its competitive position in the server market with the introduction of new multi-core processors based on the ""Bulldozer"" x86 architecture. The company also implemented a restructuring plan to strengthen its competitive positioning, implement a more competitive cost structure, and conduct a workforce rebalancing.
+
+Additionally, AMD's 2010-02-19 MD&A filing highlights the company's efforts to improve its competitive position",0.1017,1.0,0.7143,0.8333,0.494,8.233,8.726
+Reranked,temp_002,When did Abbott Laboratories first disclose its four reportable segments?,ABBOTT LABORATORIES,hard,section_1,"Abbott Laboratories disclosed four reportable revenue segments including Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Vascular Products in filings from at least 2008 through 2011.","The provided filings do not contain enough information to answer this question.
+
+However, based on [4] Company: ABBOTT LABORATORIES | Section: Business | Date: 2005-03-02 and [5] Company: ABBOTT LABORATORIES | Section: Financial Statements | Date: 2005-03-02, we can infer that the segments were reorganized as of January 1, 2004.",0.08,1.0,0.2857,0.5,0.362,5.473,5.835
