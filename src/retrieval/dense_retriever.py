@@ -77,7 +77,12 @@ class DenseRetriever:
         from sentence_transformers import SentenceTransformer
         self.model = SentenceTransformer("BAAI/bge-small-en-v1.5")
         self.client = chromadb.PersistentClient(path=db_path)
-        self.collection = self.client.get_collection("sec_filings")
+        try:
+            self.collection = self.client.get_collection("sec_filings")
+        except Exception:
+            print("Collection not found — rebuilding from embeddings...")
+            build_index()
+            self.collection = self.client.get_collection("sec_filings")
         self.instruction = "Represent this financial question for retrieving relevant documents: "
         print(f"Retriever ready. Index has {self.collection.count():,} chunks.")
 
