@@ -18,7 +18,7 @@ I built an evaluation framework with a 29-question golden dataset to answer thes
 
 ---
 
-## Results (Honest)
+## Results
 
 Evaluated across **29 questions**, **4 retrieval strategies**, **116 total RAG runs** using Llama 3.2 3B via Ollama locally.
 
